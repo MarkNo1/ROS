@@ -1,0 +1,1 @@
+clang++-5.0  -fPIC -g  -shared -Wl,-soname,libmain}.so -o /home/mark/Project/TestingROS_Gui/devel/lib/libmain}.so CMakeFiles/main}.dir/src/main.cpp.o CMakeFiles/main}.dir/src/qnode.cpp.o 

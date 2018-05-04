@@ -1,0 +1,8 @@
+prefix=/home/mark/Project/TestingROS_Gui/install
+
+Name: chat_gui
+Description: Description of chat_gui
+Version: 0.0.0
+Cflags: -I/home/mark/Project/TestingROS_Gui/install/include
+Libs: -L/home/mark/Project/TestingROS_Gui/install/lib -lchat_gui
+Requires: chat_model roscpp

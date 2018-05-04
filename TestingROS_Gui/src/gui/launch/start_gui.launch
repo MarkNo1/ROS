@@ -1,0 +1,3 @@
+<launch>
+    <node name="$(arg name)" pkg="gui" type="gui" output="screen" />
+</launch>

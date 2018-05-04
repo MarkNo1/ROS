@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mark/Project/TestingROS_Gui/src/chat_gui/src/start_chat_gui.cpp
+QApplication.h
+-
+QLabel.h
+-
+QWidget.h
+-
+

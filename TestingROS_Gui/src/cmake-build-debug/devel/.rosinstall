@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mark/Project/TestingROS_Gui/src/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/mark/Project/TestingROS_Gui/install
+
+Name: qt_build
+Description: Description of qt_build
+Version: 0.2.10
+Cflags: 
+Libs: -L/home/mark/Project/TestingROS_Gui/install/lib 
+Requires: 

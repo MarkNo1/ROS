@@ -1,0 +1,8 @@
+prefix=/home/mark/Project/TestingROS_Gui/install
+
+Name: gui
+Description: Description of gui
+Version: 0.1.0
+Cflags: -I/home/mark/Project/TestingROS_Gui/install/include
+Libs: -L/home/mark/Project/TestingROS_Gui/install/lib -lgui
+Requires: 
