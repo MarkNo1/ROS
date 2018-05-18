@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_client/moc_qadd.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_client/moc_qadd.cxx
 
-/home/mark/Project/TestingROS_Gui/devel/include/qt_tutorials/TwoInts.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include/qt_tutorials/TwoInts.h
 ros/service_traits.h
 -
 qt_tutorials/TwoIntsRequest.h
@@ -16,7 +16,7 @@ qt_tutorials/TwoIntsRequest.h
 qt_tutorials/TwoIntsResponse.h
 -
 
-/home/mark/Project/TestingROS_Gui/devel/include/qt_tutorials/TwoIntsRequest.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include/qt_tutorials/TwoIntsRequest.h
 string
 -
 vector
@@ -32,7 +32,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/mark/Project/TestingROS_Gui/devel/include/qt_tutorials/TwoIntsResponse.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include/qt_tutorials/TwoIntsResponse.h
 string
 -
 vector
@@ -48,15 +48,15 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 QtGui/QMainWindow
 -
 common/ui_main_window.h
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/common/ui_main_window.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/common/ui_main_window.h
 qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 ros/ros.h
 -
 string
@@ -66,17 +66,17 @@ QThread
 QStringListModel
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/main.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/main.cpp
 QtGui
 -
 QApplication
 -
 ../common/main_window.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 qadd.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.cpp
 ros/ros.h
 -
 string
@@ -84,17 +84,17 @@ string
 sstream
 -
 qadd.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp
 std_msgs/String.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp
 ros/ros.h
 -
 ../common/qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 qt_tutorials/TwoInts.h
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qt_tutorials/TwoInts.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qt_tutorials/TwoInts.h
 string
 -
 std_msgs/String.h

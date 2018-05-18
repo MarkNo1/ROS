@@ -1,0 +1,1 @@
+clang++-5.0 -fPIC -g  -shared -Wl,-soname,libchat_model.so -o ../devel/lib/libchat_model.so CMakeFiles/chat_model.dir/src/Display.cpp.o CMakeFiles/chat_model.dir/src/Keyboard.cpp.o CMakeFiles/chat_model.dir/src/FileReader.cpp.o 

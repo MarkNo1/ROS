@@ -67,14 +67,14 @@ set(test_chat_gui_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(test_chat_gui_SOURCE_PREFIX /home/mark/Project/TestingROS_Gui/src/test_chat_gui)
-  set(test_chat_gui_DEVEL_PREFIX /home/mark/Project/TestingROS_Gui/devel)
+  set(test_chat_gui_SOURCE_PREFIX /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui)
+  set(test_chat_gui_DEVEL_PREFIX /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel)
   set(test_chat_gui_INSTALL_PREFIX "")
   set(test_chat_gui_PREFIX ${test_chat_gui_DEVEL_PREFIX})
 else()
   set(test_chat_gui_SOURCE_PREFIX "")
   set(test_chat_gui_DEVEL_PREFIX "")
-  set(test_chat_gui_INSTALL_PREFIX /home/mark/Project/TestingROS_Gui/install)
+  set(test_chat_gui_INSTALL_PREFIX /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install)
   set(test_chat_gui_PREFIX ${test_chat_gui_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(test_chat_gui_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include " STREQUAL " ")
+if(NOT "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include " STREQUAL " ")
   set(test_chat_gui_INCLUDE_DIRS "")
-  set(_include_dirs "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include")
+  set(_include_dirs "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include " STREQUAL "
         message(FATAL_ERROR "Project 'test_chat_gui' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'test_chat_gui' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mark/Project/TestingROS_Gui/src/test_chat_gui/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'test_chat_gui' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/${idir}'.  ${_report}")
     endif()
     _list_append_unique(test_chat_gui_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mark/Project/TestingROS_Gui/devel/lib;/home/mark/Project/TestingROS_Gui/devel/lib;/home/mark/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib;/home/mark/ROS_example/robot_ws/devel/lib;/home/mark/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

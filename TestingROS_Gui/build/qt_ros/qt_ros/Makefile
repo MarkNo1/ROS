@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_ros/CMakeFiles/progress.marks
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_ros/CMakeFiles/progress.marks
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/clean
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_ros/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

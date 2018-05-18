@@ -1,8 +1,8 @@
-# Install script for directory: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client
+# Install script for directory: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mark/Project/TestingROS_Gui/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials/qadd_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials" TYPE EXECUTABLE FILES "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qadd_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials" TYPE EXECUTABLE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qadd_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials/qadd_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials/qadd_client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials/qadd_client"
-         OLD_RPATH "/home/mark/Project/TestingROS_Gui/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt_tutorials/qadd_client")

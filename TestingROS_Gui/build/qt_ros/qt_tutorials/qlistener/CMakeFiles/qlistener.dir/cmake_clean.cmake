@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qlistener.dir/main.cpp.o"
   "CMakeFiles/qlistener.dir/listener.cpp.o"
   "CMakeFiles/qlistener.dir/moc_listener.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qlistener.pdb"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qlistener"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qlistener.pdb"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qlistener"
 )
 
 # Per-language clean rules from dependency scanning.

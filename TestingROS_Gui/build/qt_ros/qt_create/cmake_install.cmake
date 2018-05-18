@@ -1,8 +1,8 @@
-# Install script for directory: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_create
+# Install script for directory: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mark/Project/TestingROS_Gui/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/installspace/qt_create.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/installspace/qt_create.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_create/cmake" TYPE FILE FILES
-    "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/installspace/qt_createConfig.cmake"
-    "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/installspace/qt_createConfig-version.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/installspace/qt_createConfig.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/installspace/qt_createConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_create" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_create/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_create" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/safe_execute_install.cmake")
+  include("/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_create/catkin_generated/safe_execute_install.cmake")
 endif()
 

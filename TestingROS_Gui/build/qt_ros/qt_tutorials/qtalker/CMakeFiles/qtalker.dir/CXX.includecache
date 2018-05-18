@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 QtGui/QMainWindow
 -
 common/ui_main_window.h
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/common/ui_main_window.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/common/ui_main_window.h
 qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 ros/ros.h
 -
 string
@@ -26,33 +26,33 @@ QThread
 QStringListModel
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp
 QtGui
 -
 QApplication
 -
 ../common/main_window.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 talker.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp
 ros/ros.h
 -
 string
 -
 talker.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
 std_msgs/String.h
 -
 sstream
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
 ros/ros.h
 -
 ../common/qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 string
 -
 

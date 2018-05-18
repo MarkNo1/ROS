@@ -1,8 +1,8 @@
-prefix=/home/mark/Project/TestingROS_Gui/devel
+prefix=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel
 
 Name: chat_model
 Description: Description of chat_model
 Version: 0.0.0
-Cflags: -I/home/mark/Project/TestingROS_Gui/src/chat_model/include
-Libs: -L/home/mark/Project/TestingROS_Gui/devel/lib -lchat_model
+Cflags: -I/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include
+Libs: -L/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib -lchat_model
 Requires: roscpp chat_messages

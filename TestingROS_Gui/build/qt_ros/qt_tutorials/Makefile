@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/progress.marks
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/progress.marks
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/clean
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ qt_tutorials_genpy: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/rule
 
 # fast build rule for target.
 qt_tutorials_genpy/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genpy.dir/build
 .PHONY : qt_tutorials_genpy/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ qt_tutorials_generate_messages_cpp: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_
 
 # fast build rule for target.
 qt_tutorials_generate_messages_cpp/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_cpp.dir/build
 .PHONY : qt_tutorials_generate_messages_cpp/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ qt_tutorials_gencpp: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/rule
 
 # fast build rule for target.
 qt_tutorials_gencpp/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gencpp.dir/build
 .PHONY : qt_tutorials_gencpp/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ qt_tutorials_generate_messages: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gene
 
 # fast build rule for target.
 qt_tutorials_generate_messages/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages.dir/build
 .PHONY : qt_tutorials_generate_messages/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ qt_tutorials_gennodejs: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.di
 
 # fast build rule for target.
 qt_tutorials_gennodejs/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/build
 .PHONY : qt_tutorials_gennodejs/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ qt_tutorials_generate_messages_eus: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_
 
 # fast build rule for target.
 qt_tutorials_generate_messages_eus/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build
 .PHONY : qt_tutorials_generate_messages_eus/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ qt_tutorials_generate_messages_py: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_g
 
 # fast build rule for target.
 qt_tutorials_generate_messages_py/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_py.dir/build
 .PHONY : qt_tutorials_generate_messages_py/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ _qt_tutorials_generate_messages_check_deps_TwoInts: qt_ros/qt_tutorials/CMakeFil
 
 # fast build rule for target.
 _qt_tutorials_generate_messages_check_deps_TwoInts/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/build.make qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/build.make qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/build
 .PHONY : _qt_tutorials_generate_messages_check_deps_TwoInts/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ qt_tutorials_geneus: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/rule
 
 # fast build rule for target.
 qt_tutorials_geneus/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_geneus.dir/build
 .PHONY : qt_tutorials_geneus/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ qt_tutorials_generate_messages_lisp: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials
 
 # fast build rule for target.
 qt_tutorials_generate_messages_lisp/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_lisp.dir/build
 .PHONY : qt_tutorials_generate_messages_lisp/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ qt_tutorials_generate_messages_nodejs: qt_ros/qt_tutorials/CMakeFiles/qt_tutoria
 
 # fast build rule for target.
 qt_tutorials_generate_messages_nodejs/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_nodejs.dir/build
 .PHONY : qt_tutorials_generate_messages_nodejs/fast
 
 # Convenience name for target.
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/rule
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/rule
 
 # Convenience name for target.
@@ -342,7 +342,7 @@ qt_tutorials_genlisp: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/ru
 
 # fast build rule for target.
 qt_tutorials_genlisp/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/build.make qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_genlisp.dir/build
 .PHONY : qt_tutorials_genlisp/fast
 
 # Help Target
@@ -381,6 +381,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

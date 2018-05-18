@@ -4,6 +4,7 @@ project(chat_messages)
 ## Compile as C++11, supported in ROS Kinetic and newer
 set(CMAKE_CXX_COMPILER "clang++-5.0")
 set(CMAKE_C_COMPILER "clang-5.0")
+set(CMAKE_CXX_STANDARD 11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -52,6 +53,7 @@ find_package(catkin REQUIRED COMPONENTS
          DIRECTORY msg
          FILES
             Text_message.msg
+            BinaryFile.msg
 
  )
 

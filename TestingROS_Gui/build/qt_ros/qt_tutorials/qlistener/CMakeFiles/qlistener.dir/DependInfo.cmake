@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/listener.cpp" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/listener.cpp.o"
-  "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/main.cpp" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/main.cpp.o"
-  "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/moc_listener.cxx" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/moc_listener.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/listener.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/listener.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/main.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/main.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/moc_listener.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/CMakeFiles/qlistener.dir/moc_listener.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/mark/Project/TestingROS_Gui/devel/include"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/qt4"
@@ -33,7 +33,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/DependInfo.cmake"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

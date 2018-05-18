@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.cpp" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.o"
-  "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_main_window.cxx" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_qnode.cxx" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.cpp" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.o"
-  "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/qrc_images.cxx" "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_main_window.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_qnode.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/qrc_images.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/mark/Project/TestingROS_Gui/devel/include"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/qt4"

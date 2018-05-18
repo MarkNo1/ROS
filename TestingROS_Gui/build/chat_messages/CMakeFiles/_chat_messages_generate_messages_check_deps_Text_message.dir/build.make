@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Utility rule file for _chat_messages_generate_messages_check_deps_Text_message.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
 include chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/progress.make
 
 chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message:
-	cd /home/mark/Project/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py chat_messages /home/mark/Project/TestingROS_Gui/src/chat_messages/msg/Text_message.msg std_msgs/Header
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg/Text_message.msg std_msgs/Header
 
 _chat_messages_generate_messages_check_deps_Text_message: chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message
 _chat_messages_generate_messages_check_deps_Text_message: chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/build.make
@@ -67,10 +67,10 @@ chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_messag
 .PHONY : chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/build
 
 chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/chat_messages && $(CMAKE_COMMAND) -P CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && $(CMAKE_COMMAND) -P CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/cmake_clean.cmake
 .PHONY : chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/clean
 
 chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/chat_messages /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/chat_messages /home/mark/Project/TestingROS_Gui/build/chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : chat_messages/CMakeFiles/_chat_messages_generate_messages_check_deps_Text_message.dir/depend
 

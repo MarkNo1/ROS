@@ -5,141 +5,141 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\gmock\;CMake Files\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_generation\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gencpp\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\geneus\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genlisp\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genpy\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rostime\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\python2.7\;CMake Files\..\..\..\..\..\..\usr\lib\python2.7\dist-packages\;CMake Files\..\..\..\..\..\..\usr\lib\python2.7\dist-packages\catkin_pkg\;CMake Files\..\..\..\..\..\..\usr\lib\python2.7\dist-packages\catkin_pkg\templates\;CMake Files\..\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\..\usr\src\gmock\;CMake Files\..\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;CMake Files\cmake-build-debug\qt_ros\;CMake Files\cmake-build-debug\qt_ros\qt_build\;CMake Files\cmake-build-debug\qt_ros\qt_build\catkin_generated\;CMake Files\cmake-build-debug\qt_ros\qt_create\;CMake Files\cmake-build-debug\qt_ros\qt_create\catkin_generated\;CMake Files\cmake-build-debug\qt_ros\qt_ros\;CMake Files\cmake-build-debug\qt_ros\qt_ros\catkin_generated\;CMake Files\cmake-build-debug\qt_ros\qt_tutorials\;CMake Files\cmake-build-debug\qt_ros\qt_tutorials\catkin_generated\;CMake Files\cmake-build-debug\qt_ros\qt_tutorials\cmake\;CMake Files\cmake-build-debug\chat_messages\;CMake Files\cmake-build-debug\chat_messages\catkin_generated\;CMake Files\cmake-build-debug\chat_messages\cmake\;CMake Files\cmake-build-debug\devel\;CMake Files\cmake-build-debug\devel\share\;CMake Files\cmake-build-debug\devel\share\chat_messages\;CMake Files\cmake-build-debug\devel\share\chat_messages\cmake\;CMake Files\cmake-build-debug\devel\share\qt_build\;CMake Files\cmake-build-debug\devel\share\qt_build\cmake\;CMake Files\cmake-build-debug\devel\share\chat_model\;CMake Files\cmake-build-debug\devel\share\chat_model\cmake\;CMake Files\cmake-build-debug\devel\share\qt_tutorials\;CMake Files\cmake-build-debug\devel\share\qt_tutorials\cmake\;CMake Files\cmake-build-debug\chat_model\;CMake Files\cmake-build-debug\chat_model\catkin_generated\;CMake Files\cmake-build-debug\gui\;CMake Files\cmake-build-debug\gui\catkin_generated\;CMake Files\cmake-build-debug\test_chat_gui\;CMake Files\cmake-build-debug\test_chat_gui\catkin_generated\;CMake Files\qt_ros\;CMake Files\qt_ros\qt_build\;CMake Files\qt_ros\qt_build\cmake\;CMake Files\qt_ros\qt_create\;CMake Files\qt_ros\qt_ros\;CMake Files\qt_ros\qt_tutorials\;CMake Files\qt_ros\qt_tutorials\common\;CMake Files\qt_ros\qt_tutorials\resources\;CMake Files\qt_ros\qt_tutorials\qtalker\;CMake Files\qt_ros\qt_tutorials\qlistener\;CMake Files\qt_ros\qt_tutorials\qadd_server\;CMake Files\qt_ros\qt_tutorials\qadd_client\;CMake Files\chat_messages\;CMake Files\chat_model\;CMake Files\gui\;CMake Files\gui\resources\;CMake Files\test_chat_gui\;CMake Files\test_chat_gui\resources\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clean_test_results">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean_test_results"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean_test_results"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="download_extra_data">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 download_extra_data"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 download_extra_data"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tests">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="doxygen">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 doxygen"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 doxygen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -159,15 +159,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -187,15 +187,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -215,15 +215,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/libgmock.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -243,15 +243,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -269,15 +269,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -295,15 +295,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -321,15 +321,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -347,13 +347,1162 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gtest/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_catkin_empty_exported_target">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_build/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_gennodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_gennodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_genlisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_genlisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_generate_messages_nodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_generate_messages_lisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_py">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_py">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_eus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_cpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_cpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_cpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_eus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_genpy">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_genpy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_py">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_lisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_nodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_lisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_generate_messages_py">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_generate_messages">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_generate_messages"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_chat_messages_generate_messages_check_deps_Text_message">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 _chat_messages_generate_messages_check_deps_Text_message"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_lisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_eus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_generate_messages_eus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_chat_messages_generate_messages_check_deps_BinaryFile">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 _chat_messages_generate_messages_check_deps_BinaryFile"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_generate_messages_cpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_gencpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_gencpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_messages_geneus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 chat_messages_geneus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_model">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/libchat_model.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;chat_model&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 chat_model"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chat_model/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/libchat_model.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;chat_model&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 chat_model/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gui">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/gui/gui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/gui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;gui&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/include"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 gui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gui/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/gui/gui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/gui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;gui&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/include"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 gui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_genpy">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_genpy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_generate_messages_cpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_gencpp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_gencpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_generate_messages">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_generate_messages"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_gennodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_gennodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_generate_messages_eus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_generate_messages_py">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_qt_tutorials_generate_messages_check_deps_TwoInts">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 _qt_tutorials_generate_messages_check_deps_TwoInts"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_geneus">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_geneus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_generate_messages_lisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_generate_messages_nodejs">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_tutorials_genlisp">
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 qt_tutorials_genlisp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qtutorials">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/libqtutorials.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 qtutorials"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qtutorials/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/libqtutorials.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 qtutorials/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qtalker">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qtalker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 qtalker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qtalker/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qtalker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 qtalker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qlistener">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qlistener" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 qlistener"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qlistener/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qlistener" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 qlistener/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qadd_server">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qadd_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 qadd_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qadd_server/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qadd_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 qadd_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qadd_client">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qadd_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 qadd_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qadd_client/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials/qadd_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/qt_tutorials"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;qt_tutorials&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 qadd_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_chat_gui">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/test_chat_gui/test_chat_gui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/test_chat_gui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;test_chat_gui&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 test_chat_gui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_chat_gui/fast">
+				<Option output="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/test_chat_gui/test_chat_gui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib/test_chat_gui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;test_chat_gui&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_KEYWORDS"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 test_chat_gui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/src/Display.cpp">
+			<Option target="chat_model"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/src/FileReader.cpp">
+			<Option target="chat_model"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/src/Keyboard.cpp">
+			<Option target="chat_model"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/include/gui/moc_main_window.cxx">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/include/gui/moc_main_window.cxx.rule">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/include/gui/moc_qnode.cxx">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/include/gui/moc_qnode.cxx.rule">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/qrc_images.cxx">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/ui_main_window.h">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/moc_main_window.cxx">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/moc_main_window.cxx.rule">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/moc_qnode.cxx">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/moc_qnode.cxx.rule">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/qrc_images.cxx">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/common/ui_main_window.h">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/moc_qadd.cxx">
+			<Option target="qadd_client"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_client/moc_qadd.cxx.rule">
+			<Option target="qadd_client"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/moc_qadd.cxx">
+			<Option target="qadd_server"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qadd_server/moc_qadd.cxx.rule">
+			<Option target="qadd_server"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/moc_listener.cxx">
+			<Option target="qlistener"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qlistener/moc_listener.cxx.rule">
+			<Option target="qlistener"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/moc_talker.cxx">
+			<Option target="qtalker"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/qtalker/moc_talker.cxx.rule">
+			<Option target="qtalker"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/include/test_chat_gui/moc_main_window.cxx">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/include/test_chat_gui/moc_main_window.cxx.rule">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/include/test_chat_gui/moc_qnode.cxx">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/include/test_chat_gui/moc_qnode.cxx.rule">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/qrc_images.cxx">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/ui_main_window.h">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/resources/images.qrc">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main.cpp">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main_window.cpp">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/qnode.cpp">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/ui/main_window.ui">
+			<Option target="gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.cpp">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.cpp">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/main.cpp">
+			<Option target="qadd_client"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.cpp">
+			<Option target="qadd_client"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/qadd.hpp">
+			<Option target="qadd_client"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_server/main.cpp">
+			<Option target="qadd_server"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_server/qadd.cpp">
+			<Option target="qadd_server"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_server/qadd.hpp">
+			<Option target="qadd_server"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/listener.cpp">
+			<Option target="qlistener"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/listener.hpp">
+			<Option target="qlistener"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/main.cpp">
+			<Option target="qlistener"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp">
+			<Option target="qtalker"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp">
+			<Option target="qtalker"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp">
+			<Option target="qtalker"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/resources/images.qrc">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/ui/main_window.ui">
+			<Option target="qtutorials"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/resources/images.qrc">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp">
+			<Option target="test_chat_gui"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/ui/main_window.ui">
+			<Option target="test_chat_gui"/>
+		</Unit>
 		<Unit filename="/usr/src/gmock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
@@ -369,173 +1518,521 @@
 		<Unit filename="/usr/src/gtest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/CMakeLists.txt">
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/package.xml">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/package.xml">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/all.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/all.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/assert.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/assert.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/atomic_configure_file.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/atomic_configure_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_add_env_hooks.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_add_env_hooks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_destinations.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_destinations.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_download.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_generate_environment.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_generate_environment.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_install_python.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_install_python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_libraries.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_metapackage.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_metapackage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_package_xml.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_package_xml.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_python_setup.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_python_setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_workspace.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/catkin_workspace.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/debug_message.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/debug_message.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/em_expand.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/em_expand.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/empy.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/empy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/find_program_required.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/find_program_required.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/interrogate_setup_dot_py.py">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/interrogate_setup_dot_py.py">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/legacy.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/legacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/list_append_deduplicate.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/list_append_deduplicate.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/list_append_unique.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/list_append_unique.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/list_insert_in_workspace_order.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/python.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/safe_execute_process.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/safe_execute_process.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/stamp.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/stamp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/string_starts_with.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/string_starts_with.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/platform/lsb.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/platform/lsb.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/platform/ubuntu.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/platform/ubuntu.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/platform/windows.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/platform/windows.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/test/catkin_download_test_data.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/test/catkin_download_test_data.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/test/gtest.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/test/gtest.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/test/nosetests.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/test/nosetests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/test/tests.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/test/tests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/tools/doxygen.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/tools/doxygen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/tools/libraries.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/tools/libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/tools/rt.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/tools/rt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/_setup_util.py.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/__init__.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/env.sh.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/_setup_util.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/generate_cached_setup.py.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/env.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/order_packages.context.py.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/generate_cached_setup.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/rosinstall.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/order_packages.context.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.bash.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.sh.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.zsh.in">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../opt/ros/kinetic/share/catkin/cmake/em/order_packages.cmake.em">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/python_distutils_install.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../usr/src/gmock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gmock\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/rosinstall.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../usr/src/gtest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/safe_execute_install.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/../../../../../usr/src/gtest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\gtest\cmake\"/>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/script.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/catkin/catkin_generated/version/package.cmake">
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/em/order_packages.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/message_generation/cmake/message_generationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/gencpp/cmake/gencpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/genmsgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-genmsg.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-genmsg.context.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/geneus/cmake/geneus-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genlisp/cmake/genlisp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../usr/lib/python2.7/dist-packages/catkin_pkg/templates/metapackage.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\python2.7\dist-packages\catkin_pkg\templates\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../usr/src/gmock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gmock\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../usr/src/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gtest\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/../../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gtest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/catkin/catkin_generated/version/package.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin\catkin_generated\version\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/catkin_generated/order_packages.cmake">
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/catkin_generated/order_packages.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\"/>
 		</Unit>
-		<Unit filename="/home/mark/Project/TestingROS_Gui/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\installspace\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_build/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_build\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_create/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_create\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_create/catkin_generated/setup_py_interrogation.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_create\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_ros/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_ros\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_tutorials\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_tutorials\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/catkin_generated/qt_tutorials-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_tutorials\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/catkin_generated/qt_tutorials-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_tutorials\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/qt_ros/qt_tutorials/cmake/qt_tutorials-genmsg.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\qt_ros\qt_tutorials\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/catkin_generated/chat_messages-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_messages\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/catkin_generated/chat_messages-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_messages\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_messages\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_messages\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_messages/cmake/chat_messages-genmsg.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_messages\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/chat_messages/cmake/chat_messages-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\chat_messages\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/chat_messages/cmake/chat_messages-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\chat_messages\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/chat_messages/cmake/chat_messagesConfig-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\chat_messages\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/chat_messages/cmake/chat_messagesConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\chat_messages\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/qt_build/cmake/qt-ros.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\qt_build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/qt_build/cmake/qt_buildConfig-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\qt_build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/qt_build/cmake/qt_buildConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\qt_build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/chat_model/cmake/chat_modelConfig-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\chat_model\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/chat_model/cmake/chat_modelConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\chat_model\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/share/qt_tutorials/cmake/qt_tutorials-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\qt_tutorials\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_model\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/chat_model/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\chat_model\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\gui\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/gui/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\gui\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\test_chat_gui\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_chat_gui/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\test_chat_gui\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_build\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_build/package.xml">
+			<Option virtualFolder="CMake Files\qt_ros\qt_build\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_build/cmake/qt-ros.cmake.in">
+			<Option virtualFolder="CMake Files\qt_ros\qt_build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_create\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create/package.xml">
+			<Option virtualFolder="CMake Files\qt_ros\qt_create\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create/setup.py">
+			<Option virtualFolder="CMake Files\qt_ros\qt_create\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_ros/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_ros\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_ros/package.xml">
+			<Option virtualFolder="CMake Files\qt_ros\qt_ros\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/package.xml">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\common\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/resources/images.qrc">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\resources\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\qtalker\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\qlistener\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\qadd_server\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qadd_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_ros\qt_tutorials\qadd_client\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chat_messages\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/package.xml">
+			<Option virtualFolder="CMake Files\chat_messages\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\chat_model\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/package.xml">
+			<Option virtualFolder="CMake Files\chat_model\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gui\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/package.xml">
+			<Option virtualFolder="CMake Files\gui\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/resources/images.qrc">
+			<Option virtualFolder="CMake Files\gui\resources\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test_chat_gui\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/package.xml">
+			<Option virtualFolder="CMake Files\test_chat_gui\"/>
+		</Unit>
+		<Unit filename="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/resources/images.qrc">
+			<Option virtualFolder="CMake Files\test_chat_gui\resources\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

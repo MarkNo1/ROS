@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_server/CMakeFiles/progress.marks
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_server/CMakeFiles/progress.marks
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/clean
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/rule
 .PHONY : qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ qadd_server: qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/rule
 
 # fast build rule for target.
 qadd_server/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build
 .PHONY : qadd_server/fast
 
 main.o: main.cpp.o
@@ -186,7 +186,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/main.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -195,7 +195,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/main.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -204,7 +204,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/main.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 moc_qadd.o: moc_qadd.cxx.o
@@ -213,7 +213,7 @@ moc_qadd.o: moc_qadd.cxx.o
 
 # target to build an object file
 moc_qadd.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/moc_qadd.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/moc_qadd.cxx.o
 .PHONY : moc_qadd.cxx.o
 
 moc_qadd.i: moc_qadd.cxx.i
@@ -222,7 +222,7 @@ moc_qadd.i: moc_qadd.cxx.i
 
 # target to preprocess a source file
 moc_qadd.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/moc_qadd.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/moc_qadd.cxx.i
 .PHONY : moc_qadd.cxx.i
 
 moc_qadd.s: moc_qadd.cxx.s
@@ -231,7 +231,7 @@ moc_qadd.s: moc_qadd.cxx.s
 
 # target to generate assembly for a file
 moc_qadd.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/moc_qadd.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/moc_qadd.cxx.s
 .PHONY : moc_qadd.cxx.s
 
 qadd.o: qadd.cpp.o
@@ -240,7 +240,7 @@ qadd.o: qadd.cpp.o
 
 # target to build an object file
 qadd.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/qadd.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/qadd.cpp.o
 .PHONY : qadd.cpp.o
 
 qadd.i: qadd.cpp.i
@@ -249,7 +249,7 @@ qadd.i: qadd.cpp.i
 
 # target to preprocess a source file
 qadd.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/qadd.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/qadd.cpp.i
 .PHONY : qadd.cpp.i
 
 qadd.s: qadd.cpp.s
@@ -258,7 +258,7 @@ qadd.s: qadd.cpp.s
 
 # target to generate assembly for a file
 qadd.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/qadd.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/build.make qt_ros/qt_tutorials/qadd_server/CMakeFiles/qadd_server.dir/qadd.cpp.s
 .PHONY : qadd.cpp.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

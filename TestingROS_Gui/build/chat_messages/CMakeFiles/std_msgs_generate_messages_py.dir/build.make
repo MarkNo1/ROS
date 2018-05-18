@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/build: std_msgs_gener
 .PHONY : chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/build
 
 chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/chat_messages && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/chat_messages /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/chat_messages /home/mark/Project/TestingROS_Gui/build/chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : chat_messages/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtutorials.dir/qrc_images.cxx.o"
   "CMakeFiles/qtutorials.dir/moc_qnode.cxx.o"
   "CMakeFiles/qtutorials.dir/moc_main_window.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/libqtutorials.pdb"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/libqtutorials.so"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/libqtutorials.pdb"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/libqtutorials.so"
 )
 
 # Per-language clean rules from dependency scanning.

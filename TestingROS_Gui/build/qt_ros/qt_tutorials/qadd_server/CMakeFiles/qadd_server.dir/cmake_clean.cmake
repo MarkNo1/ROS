@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qadd_server.dir/qadd.cpp.o"
   "CMakeFiles/qadd_server.dir/main.cpp.o"
   "CMakeFiles/qadd_server.dir/moc_qadd.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qadd_server.pdb"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qadd_server"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qadd_server.pdb"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qadd_server"
 )
 
 # Per-language clean rules from dependency scanning.

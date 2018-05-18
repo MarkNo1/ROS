@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Utility rule file for qt_tutorials_generate_messages_eus.
 
 # Include the progress variables for this target.
 include qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/progress.make
 
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus: /home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l
-qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus: /home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/manifest.l
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l
+qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/manifest.l
 
 
-/home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from qt_tutorials/TwoInts.srv"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p qt_tutorials -o /home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from qt_tutorials/TwoInts.srv"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p qt_tutorials -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv
 
-/home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for qt_tutorials"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials qt_tutorials std_msgs
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for qt_tutorials"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials qt_tutorials std_msgs
 
 qt_tutorials_generate_messages_eus: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus
-qt_tutorials_generate_messages_eus: /home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l
-qt_tutorials_generate_messages_eus: /home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/manifest.l
+qt_tutorials_generate_messages_eus: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/srv/TwoInts.l
+qt_tutorials_generate_messages_eus: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials/manifest.l
 qt_tutorials_generate_messages_eus: qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build.make
 
 .PHONY : qt_tutorials_generate_messages_eus
@@ -79,10 +79,10 @@ qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build: qt_
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/build
 
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/qt_tutorials_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/qt_tutorials_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/clean
 
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_generate_messages_eus.dir/depend
 

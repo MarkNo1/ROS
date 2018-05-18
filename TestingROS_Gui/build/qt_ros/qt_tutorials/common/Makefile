@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/progress.marks
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/CMakeFiles/progress.marks
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/clean
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/rule
 .PHONY : qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ qtutorials: qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/rule
 
 # fast build rule for target.
 qtutorials/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build
 .PHONY : qtutorials/fast
 
 main_window.o: main_window.cpp.o
@@ -186,7 +186,7 @@ main_window.o: main_window.cpp.o
 
 # target to build an object file
 main_window.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.o
 .PHONY : main_window.cpp.o
 
 main_window.i: main_window.cpp.i
@@ -195,7 +195,7 @@ main_window.i: main_window.cpp.i
 
 # target to preprocess a source file
 main_window.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.i
 .PHONY : main_window.cpp.i
 
 main_window.s: main_window.cpp.s
@@ -204,7 +204,7 @@ main_window.s: main_window.cpp.s
 
 # target to generate assembly for a file
 main_window.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/main_window.cpp.s
 .PHONY : main_window.cpp.s
 
 moc_main_window.o: moc_main_window.cxx.o
@@ -213,7 +213,7 @@ moc_main_window.o: moc_main_window.cxx.o
 
 # target to build an object file
 moc_main_window.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.o
 .PHONY : moc_main_window.cxx.o
 
 moc_main_window.i: moc_main_window.cxx.i
@@ -222,7 +222,7 @@ moc_main_window.i: moc_main_window.cxx.i
 
 # target to preprocess a source file
 moc_main_window.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.i
 .PHONY : moc_main_window.cxx.i
 
 moc_main_window.s: moc_main_window.cxx.s
@@ -231,7 +231,7 @@ moc_main_window.s: moc_main_window.cxx.s
 
 # target to generate assembly for a file
 moc_main_window.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_main_window.cxx.s
 .PHONY : moc_main_window.cxx.s
 
 moc_qnode.o: moc_qnode.cxx.o
@@ -240,7 +240,7 @@ moc_qnode.o: moc_qnode.cxx.o
 
 # target to build an object file
 moc_qnode.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.o
 .PHONY : moc_qnode.cxx.o
 
 moc_qnode.i: moc_qnode.cxx.i
@@ -249,7 +249,7 @@ moc_qnode.i: moc_qnode.cxx.i
 
 # target to preprocess a source file
 moc_qnode.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.i
 .PHONY : moc_qnode.cxx.i
 
 moc_qnode.s: moc_qnode.cxx.s
@@ -258,7 +258,7 @@ moc_qnode.s: moc_qnode.cxx.s
 
 # target to generate assembly for a file
 moc_qnode.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/moc_qnode.cxx.s
 .PHONY : moc_qnode.cxx.s
 
 qnode.o: qnode.cpp.o
@@ -267,7 +267,7 @@ qnode.o: qnode.cpp.o
 
 # target to build an object file
 qnode.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.o
 .PHONY : qnode.cpp.o
 
 qnode.i: qnode.cpp.i
@@ -276,7 +276,7 @@ qnode.i: qnode.cpp.i
 
 # target to preprocess a source file
 qnode.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.i
 .PHONY : qnode.cpp.i
 
 qnode.s: qnode.cpp.s
@@ -285,7 +285,7 @@ qnode.s: qnode.cpp.s
 
 # target to generate assembly for a file
 qnode.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qnode.cpp.s
 .PHONY : qnode.cpp.s
 
 qrc_images.o: qrc_images.cxx.o
@@ -294,7 +294,7 @@ qrc_images.o: qrc_images.cxx.o
 
 # target to build an object file
 qrc_images.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.o
 .PHONY : qrc_images.cxx.o
 
 qrc_images.i: qrc_images.cxx.i
@@ -303,7 +303,7 @@ qrc_images.i: qrc_images.cxx.i
 
 # target to preprocess a source file
 qrc_images.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.i
 .PHONY : qrc_images.cxx.i
 
 qrc_images.s: qrc_images.cxx.s
@@ -312,7 +312,7 @@ qrc_images.s: qrc_images.cxx.s
 
 # target to generate assembly for a file
 qrc_images.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/build.make qt_ros/qt_tutorials/common/CMakeFiles/qtutorials.dir/qrc_images.cxx.s
 .PHONY : qrc_images.cxx.s
 
 # Help Target
@@ -355,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles /home/mark/Project/TestingROS_Gui/build/chat_model/CMakeFiles/progress.marks
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_model/CMakeFiles/progress.marks
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/clean
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 chat_model/CMakeFiles/chat_model.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/CMakeFiles/chat_model.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 chat_model/CMakeFiles/chat_model.dir/rule
 .PHONY : chat_model/CMakeFiles/chat_model.dir/rule
 
 # Convenience name for target.
@@ -177,62 +177,62 @@ chat_model: chat_model/CMakeFiles/chat_model.dir/rule
 
 # fast build rule for target.
 chat_model/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/build
 .PHONY : chat_model/fast
 
-src/Display.o: src/Display.cpp.o
+src/PublishNodeHandler.o: src/PublishNodeHandler.cpp.o
 
-.PHONY : src/Display.o
-
-# target to build an object file
-src/Display.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/Display.cpp.o
-.PHONY : src/Display.cpp.o
-
-src/Display.i: src/Display.cpp.i
-
-.PHONY : src/Display.i
-
-# target to preprocess a source file
-src/Display.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/Display.cpp.i
-.PHONY : src/Display.cpp.i
-
-src/Display.s: src/Display.cpp.s
-
-.PHONY : src/Display.s
-
-# target to generate assembly for a file
-src/Display.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/Display.cpp.s
-.PHONY : src/Display.cpp.s
-
-src/Keyboard.o: src/Keyboard.cpp.o
-
-.PHONY : src/Keyboard.o
+.PHONY : src/PublishNodeHandler.o
 
 # target to build an object file
-src/Keyboard.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/Keyboard.cpp.o
-.PHONY : src/Keyboard.cpp.o
+src/PublishNodeHandler.cpp.o:
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/PublishNodeHandler.cpp.o
+.PHONY : src/PublishNodeHandler.cpp.o
 
-src/Keyboard.i: src/Keyboard.cpp.i
+src/PublishNodeHandler.i: src/PublishNodeHandler.cpp.i
 
-.PHONY : src/Keyboard.i
+.PHONY : src/PublishNodeHandler.i
 
 # target to preprocess a source file
-src/Keyboard.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/Keyboard.cpp.i
-.PHONY : src/Keyboard.cpp.i
+src/PublishNodeHandler.cpp.i:
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/PublishNodeHandler.cpp.i
+.PHONY : src/PublishNodeHandler.cpp.i
 
-src/Keyboard.s: src/Keyboard.cpp.s
+src/PublishNodeHandler.s: src/PublishNodeHandler.cpp.s
 
-.PHONY : src/Keyboard.s
+.PHONY : src/PublishNodeHandler.s
 
 # target to generate assembly for a file
-src/Keyboard.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/Keyboard.cpp.s
-.PHONY : src/Keyboard.cpp.s
+src/PublishNodeHandler.cpp.s:
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/PublishNodeHandler.cpp.s
+.PHONY : src/PublishNodeHandler.cpp.s
+
+src/SubscriberNodeHandler.o: src/SubscriberNodeHandler.cpp.o
+
+.PHONY : src/SubscriberNodeHandler.o
+
+# target to build an object file
+src/SubscriberNodeHandler.cpp.o:
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/SubscriberNodeHandler.cpp.o
+.PHONY : src/SubscriberNodeHandler.cpp.o
+
+src/SubscriberNodeHandler.i: src/SubscriberNodeHandler.cpp.i
+
+.PHONY : src/SubscriberNodeHandler.i
+
+# target to preprocess a source file
+src/SubscriberNodeHandler.cpp.i:
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/SubscriberNodeHandler.cpp.i
+.PHONY : src/SubscriberNodeHandler.cpp.i
+
+src/SubscriberNodeHandler.s: src/SubscriberNodeHandler.cpp.s
+
+.PHONY : src/SubscriberNodeHandler.s
+
+# target to generate assembly for a file
+src/SubscriberNodeHandler.cpp.s:
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f chat_model/CMakeFiles/chat_model.dir/build.make chat_model/CMakeFiles/chat_model.dir/src/SubscriberNodeHandler.cpp.s
+.PHONY : src/SubscriberNodeHandler.cpp.s
 
 # Help Target
 help:
@@ -248,12 +248,12 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... test"
-	@echo "... src/Display.o"
-	@echo "... src/Display.i"
-	@echo "... src/Display.s"
-	@echo "... src/Keyboard.o"
-	@echo "... src/Keyboard.i"
-	@echo "... src/Keyboard.s"
+	@echo "... src/PublishNodeHandler.o"
+	@echo "... src/PublishNodeHandler.i"
+	@echo "... src/PublishNodeHandler.s"
+	@echo "... src/SubscriberNodeHandler.o"
+	@echo "... src/SubscriberNodeHandler.i"
+	@echo "... src/SubscriberNodeHandler.s"
 .PHONY : help
 
 
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

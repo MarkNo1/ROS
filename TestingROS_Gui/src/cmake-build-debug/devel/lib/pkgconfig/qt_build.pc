@@ -1,0 +1,8 @@
+prefix=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel
+
+Name: qt_build
+Description: Description of qt_build
+Version: 0.2.10
+Cflags: 
+Libs: -L/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib 
+Requires: 

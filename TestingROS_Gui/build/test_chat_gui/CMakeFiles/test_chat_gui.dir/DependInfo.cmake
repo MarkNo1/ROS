@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx" "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx" "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx" "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main.cpp" "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o"
-  "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp" "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o"
-  "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp" "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp" "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/qt4"

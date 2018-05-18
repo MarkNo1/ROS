@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx
 ../../../../src/test_chat_gui/include/test_chat_gui/main_window.hpp
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/main_window.hpp
 
-/home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx
 ../../../../src/test_chat_gui/include/test_chat_gui/qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
 
-/home/mark/Project/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx
 QtCore/qglobal.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/main_window.hpp
 QtGui/QMainWindow
 -
 ui_main_window.h
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/ui_main_window.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/ui_main_window.h
 qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
 
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
 ros/ros.h
 -
 QStringListModel
@@ -36,7 +36,7 @@ QThread
 string
 -
 
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp
 QtGui
 -
 QApplication
@@ -44,7 +44,7 @@ QApplication
 test_chat_gui/main_window.hpp
 -
 
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp
 test_chat_gui/main_window.hpp
 -
 QMessageBox
@@ -54,7 +54,7 @@ QtGui
 iostream
 -
 
-/home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp
 ros/network.h
 -
 ros/ros.h

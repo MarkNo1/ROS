@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Include any dependencies generated for this target.
 include gui/CMakeFiles/gui.dir/depend.make
@@ -57,38 +57,43 @@ include gui/CMakeFiles/gui.dir/progress.make
 # Include the compile flags for this target's objects.
 include gui/CMakeFiles/gui.dir/flags.make
 
-gui/qrc_images.cxx: /home/mark/Project/TestingROS_Gui/src/gui/resources/images/icon.png
+gui/qrc_images.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/resources/images/icon.png
 gui/qrc_images.cxx: gui/resources/images.qrc.depends
-gui/qrc_images.cxx: /home/mark/Project/TestingROS_Gui/src/gui/resources/images.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name images -o /home/mark/Project/TestingROS_Gui/build/gui/qrc_images.cxx /home/mark/Project/TestingROS_Gui/src/gui/resources/images.qrc
+gui/qrc_images.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/resources/images.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name images -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/qrc_images.cxx /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/resources/images.qrc
 
-gui/ui_main_window.h: /home/mark/Project/TestingROS_Gui/src/gui/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/mark/Project/TestingROS_Gui/build/gui/ui_main_window.h /home/mark/Project/TestingROS_Gui/src/gui/ui/main_window.ui
+gui/ui_main_window.h: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/ui_main_window.h /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/ui/main_window.ui
 
-gui/include/gui/moc_qnode.cxx: /home/mark/Project/TestingROS_Gui/src/gui/include/gui/qnode.hpp
-gui/include/gui/moc_qnode.cxx: gui/include/gui/moc_qnode.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/gui/moc_qnode.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/gui/include/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_qnode.cxx_parameters
+gui/include/gui/moc_QSubscriber.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/include/gui/QSubscriber.hpp
+gui/include/gui/moc_QSubscriber.cxx: gui/include/gui/moc_QSubscriber.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/gui/moc_QSubscriber.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QSubscriber.cxx_parameters
 
-gui/include/gui/moc_main_window.cxx: /home/mark/Project/TestingROS_Gui/src/gui/include/gui/main_window.hpp
+gui/include/gui/moc_main_window.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/include/gui/main_window.hpp
 gui/include/gui/moc_main_window.cxx: gui/include/gui/moc_main_window.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/gui/moc_main_window.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/gui/include/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/gui/moc_main_window.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx_parameters
+
+gui/include/gui/moc_QPublisher.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/include/gui/QPublisher.hpp
+gui/include/gui/moc_QPublisher.cxx: gui/include/gui/moc_QPublisher.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/gui/moc_QPublisher.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QPublisher.cxx_parameters
 
 gui/CMakeFiles/gui.dir/src/main_window.cpp.o: gui/CMakeFiles/gui.dir/flags.make
-gui/CMakeFiles/gui.dir/src/main_window.cpp.o: /home/mark/Project/TestingROS_Gui/src/gui/src/main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object gui/CMakeFiles/gui.dir/src/main_window.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/main_window.cpp.o -c /home/mark/Project/TestingROS_Gui/src/gui/src/main_window.cpp
+gui/CMakeFiles/gui.dir/src/main_window.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object gui/CMakeFiles/gui.dir/src/main_window.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/main_window.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main_window.cpp
 
 gui/CMakeFiles/gui.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/src/main_window.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/gui/src/main_window.cpp > CMakeFiles/gui.dir/src/main_window.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main_window.cpp > CMakeFiles/gui.dir/src/main_window.cpp.i
 
 gui/CMakeFiles/gui.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/src/main_window.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/gui/src/main_window.cpp -o CMakeFiles/gui.dir/src/main_window.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main_window.cpp -o CMakeFiles/gui.dir/src/main_window.cpp.s
 
 gui/CMakeFiles/gui.dir/src/main_window.cpp.o.requires:
 
@@ -102,17 +107,17 @@ gui/CMakeFiles/gui.dir/src/main_window.cpp.o.provides.build: gui/CMakeFiles/gui.
 
 
 gui/CMakeFiles/gui.dir/src/main.cpp.o: gui/CMakeFiles/gui.dir/flags.make
-gui/CMakeFiles/gui.dir/src/main.cpp.o: /home/mark/Project/TestingROS_Gui/src/gui/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object gui/CMakeFiles/gui.dir/src/main.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/main.cpp.o -c /home/mark/Project/TestingROS_Gui/src/gui/src/main.cpp
+gui/CMakeFiles/gui.dir/src/main.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object gui/CMakeFiles/gui.dir/src/main.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/main.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main.cpp
 
 gui/CMakeFiles/gui.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/src/main.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/gui/src/main.cpp > CMakeFiles/gui.dir/src/main.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main.cpp > CMakeFiles/gui.dir/src/main.cpp.i
 
 gui/CMakeFiles/gui.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/src/main.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/gui/src/main.cpp -o CMakeFiles/gui.dir/src/main.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/main.cpp -o CMakeFiles/gui.dir/src/main.cpp.s
 
 gui/CMakeFiles/gui.dir/src/main.cpp.o.requires:
 
@@ -125,42 +130,66 @@ gui/CMakeFiles/gui.dir/src/main.cpp.o.provides: gui/CMakeFiles/gui.dir/src/main.
 gui/CMakeFiles/gui.dir/src/main.cpp.o.provides.build: gui/CMakeFiles/gui.dir/src/main.cpp.o
 
 
-gui/CMakeFiles/gui.dir/src/qnode.cpp.o: gui/CMakeFiles/gui.dir/flags.make
-gui/CMakeFiles/gui.dir/src/qnode.cpp.o: /home/mark/Project/TestingROS_Gui/src/gui/src/qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object gui/CMakeFiles/gui.dir/src/qnode.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/qnode.cpp.o -c /home/mark/Project/TestingROS_Gui/src/gui/src/qnode.cpp
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QPublisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/QPublisher.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QPublisher.cpp
 
-gui/CMakeFiles/gui.dir/src/qnode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/src/qnode.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/gui/src/qnode.cpp > CMakeFiles/gui.dir/src/qnode.cpp.i
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/src/QPublisher.cpp.i"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QPublisher.cpp > CMakeFiles/gui.dir/src/QPublisher.cpp.i
 
-gui/CMakeFiles/gui.dir/src/qnode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/src/qnode.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/gui/src/qnode.cpp -o CMakeFiles/gui.dir/src/qnode.cpp.s
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/src/QPublisher.cpp.s"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QPublisher.cpp -o CMakeFiles/gui.dir/src/QPublisher.cpp.s
 
-gui/CMakeFiles/gui.dir/src/qnode.cpp.o.requires:
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.requires:
 
-.PHONY : gui/CMakeFiles/gui.dir/src/qnode.cpp.o.requires
+.PHONY : gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.requires
 
-gui/CMakeFiles/gui.dir/src/qnode.cpp.o.provides: gui/CMakeFiles/gui.dir/src/qnode.cpp.o.requires
-	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/qnode.cpp.o.provides.build
-.PHONY : gui/CMakeFiles/gui.dir/src/qnode.cpp.o.provides
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.provides: gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.provides
 
-gui/CMakeFiles/gui.dir/src/qnode.cpp.o.provides.build: gui/CMakeFiles/gui.dir/src/qnode.cpp.o
+gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.provides.build: gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o
+
+
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/QSubscriber.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QSubscriber.cpp
+
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/src/QSubscriber.cpp.i"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QSubscriber.cpp > CMakeFiles/gui.dir/src/QSubscriber.cpp.i
+
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/src/QSubscriber.cpp.s"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/src/QSubscriber.cpp -o CMakeFiles/gui.dir/src/QSubscriber.cpp.s
+
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.requires:
+
+.PHONY : gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.requires
+
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.provides: gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.provides
+
+gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.provides.build: gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o
 
 
 gui/CMakeFiles/gui.dir/qrc_images.cxx.o: gui/CMakeFiles/gui.dir/flags.make
 gui/CMakeFiles/gui.dir/qrc_images.cxx.o: gui/qrc_images.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object gui/CMakeFiles/gui.dir/qrc_images.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/qrc_images.cxx.o -c /home/mark/Project/TestingROS_Gui/build/gui/qrc_images.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object gui/CMakeFiles/gui.dir/qrc_images.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/qrc_images.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/qrc_images.cxx
 
 gui/CMakeFiles/gui.dir/qrc_images.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/qrc_images.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/gui/qrc_images.cxx > CMakeFiles/gui.dir/qrc_images.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/qrc_images.cxx > CMakeFiles/gui.dir/qrc_images.cxx.i
 
 gui/CMakeFiles/gui.dir/qrc_images.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/qrc_images.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/gui/qrc_images.cxx -o CMakeFiles/gui.dir/qrc_images.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/qrc_images.cxx -o CMakeFiles/gui.dir/qrc_images.cxx.s
 
 gui/CMakeFiles/gui.dir/qrc_images.cxx.o.requires:
 
@@ -173,42 +202,42 @@ gui/CMakeFiles/gui.dir/qrc_images.cxx.o.provides: gui/CMakeFiles/gui.dir/qrc_ima
 gui/CMakeFiles/gui.dir/qrc_images.cxx.o.provides.build: gui/CMakeFiles/gui.dir/qrc_images.cxx.o
 
 
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o: gui/CMakeFiles/gui.dir/flags.make
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o: gui/include/gui/moc_qnode.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o -c /home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_qnode.cxx
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o: gui/include/gui/moc_QSubscriber.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QSubscriber.cxx
 
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_qnode.cxx > CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.i
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.i"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QSubscriber.cxx > CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.i
 
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_qnode.cxx -o CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.s
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.s"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QSubscriber.cxx -o CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.s
 
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.requires:
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.requires:
 
-.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.requires
+.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.requires
 
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.provides: gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.requires
-	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.provides.build
-.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.provides
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.provides: gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.provides
 
-gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.provides.build: gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o
+gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.provides.build: gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o
 
 
 gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o: gui/CMakeFiles/gui.dir/flags.make
 gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o: gui/include/gui/moc_main_window.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o -c /home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx
 
 gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx > CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx > CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.i
 
 gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx -o CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_main_window.cxx -o CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.s
 
 gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o.requires:
 
@@ -221,73 +250,104 @@ gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o.provides: gui/CMakeFile
 gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o.provides.build: gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o
 
 
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o: gui/include/gui/moc_QPublisher.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QPublisher.cxx
+
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.i"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QPublisher.cxx > CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.i
+
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.s"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/include/gui/moc_QPublisher.cxx -o CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.s
+
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.requires:
+
+.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.requires
+
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.provides: gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.provides
+
+gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.provides.build: gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o
+
+
 # Object files for target gui
 gui_OBJECTS = \
 "CMakeFiles/gui.dir/src/main_window.cpp.o" \
 "CMakeFiles/gui.dir/src/main.cpp.o" \
-"CMakeFiles/gui.dir/src/qnode.cpp.o" \
+"CMakeFiles/gui.dir/src/QPublisher.cpp.o" \
+"CMakeFiles/gui.dir/src/QSubscriber.cpp.o" \
 "CMakeFiles/gui.dir/qrc_images.cxx.o" \
-"CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o" \
-"CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o"
+"CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o" \
+"CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o" \
+"CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o"
 
 # External object files for target gui
 gui_EXTERNAL_OBJECTS =
 
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/main_window.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/main.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/qnode.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/qrc_images.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/build.make
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /home/mark/Project/TestingROS_Gui/devel/lib/libchat_model.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libroscpp.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librosconsole.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librostime.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /home/mark/Project/TestingROS_Gui/devel/lib/gui/gui"
-	cd /home/mark/Project/TestingROS_Gui/build/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gui.dir/link.txt --verbose=$(VERBOSE)
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/main_window.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/main.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/qrc_images.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/build.make
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/libchat_model.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libroscpp.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librosconsole.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/librostime.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-gui/CMakeFiles/gui.dir/build: /home/mark/Project/TestingROS_Gui/devel/lib/gui/gui
+gui/CMakeFiles/gui.dir/build: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui
 
 .PHONY : gui/CMakeFiles/gui.dir/build
 
 gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/main_window.cpp.o.requires
 gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/main.cpp.o.requires
-gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/qnode.cpp.o.requires
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/QPublisher.cpp.o.requires
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/QSubscriber.cpp.o.requires
 gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/qrc_images.cxx.o.requires
-gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/include/gui/moc_qnode.cxx.o.requires
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/include/gui/moc_QSubscriber.cxx.o.requires
 gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/include/gui/moc_main_window.cxx.o.requires
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/include/gui/moc_QPublisher.cxx.o.requires
 
 .PHONY : gui/CMakeFiles/gui.dir/requires
 
 gui/CMakeFiles/gui.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/gui && $(CMAKE_COMMAND) -P CMakeFiles/gui.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui && $(CMAKE_COMMAND) -P CMakeFiles/gui.dir/cmake_clean.cmake
 .PHONY : gui/CMakeFiles/gui.dir/clean
 
 gui/CMakeFiles/gui.dir/depend: gui/qrc_images.cxx
 gui/CMakeFiles/gui.dir/depend: gui/ui_main_window.h
-gui/CMakeFiles/gui.dir/depend: gui/include/gui/moc_qnode.cxx
+gui/CMakeFiles/gui.dir/depend: gui/include/gui/moc_QSubscriber.cxx
 gui/CMakeFiles/gui.dir/depend: gui/include/gui/moc_main_window.cxx
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/gui /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/gui /home/mark/Project/TestingROS_Gui/build/gui/CMakeFiles/gui.dir/DependInfo.cmake --color=$(COLOR)
+gui/CMakeFiles/gui.dir/depend: gui/include/gui/moc_QPublisher.cxx
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/CMakeFiles/gui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gui/CMakeFiles/gui.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials
+# Install script for directory: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mark/Project/TestingROS_Gui/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,87 +33,87 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/srv" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/srv" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/cmake" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorials-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/cmake" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorials-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/devel/include/qt_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include/qt_tutorials")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/qt_tutorials")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/devel/share/common-lisp/ros/qt_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/common-lisp/ros/qt_tutorials")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/devel/share/gennodejs/ros/qt_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/gennodejs/ros/qt_tutorials")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorials.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorials.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/cmake" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorials-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/cmake" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorials-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials/cmake" TYPE FILE FILES
-    "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorialsConfig.cmake"
-    "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorialsConfig-version.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorialsConfig.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/catkin_generated/installspace/qt_tutorialsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt_tutorials" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mark/Project/TestingROS_Gui/install/share/qt_tutorials/resources")
+   "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/share/qt_tutorials/resources")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/mark/Project/TestingROS_Gui/install/share/qt_tutorials" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/resources")
+file(INSTALL DESTINATION "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/share/qt_tutorials" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/resources")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mark/Project/TestingROS_Gui/install/share/qt_tutorials/ui")
+   "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/share/qt_tutorials/ui")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/mark/Project/TestingROS_Gui/install/share/qt_tutorials" TYPE DIRECTORY FILES "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/ui")
+file(INSTALL DESTINATION "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/share/qt_tutorials" TYPE DIRECTORY FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/ui")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/cmake_install.cmake")
-  include("/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/cmake_install.cmake")
-  include("/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/cmake_install.cmake")
-  include("/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_server/cmake_install.cmake")
-  include("/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_client/cmake_install.cmake")
+  include("/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/cmake_install.cmake")
+  include("/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/cmake_install.cmake")
+  include("/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/cmake_install.cmake")
+  include("/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_server/cmake_install.cmake")
+  include("/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qadd_client/cmake_install.cmake")
 
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Include any dependencies generated for this target.
 include test_chat_gui/CMakeFiles/test_chat_gui.dir/depend.make
@@ -57,38 +57,38 @@ include test_chat_gui/CMakeFiles/test_chat_gui.dir/progress.make
 # Include the compile flags for this target's objects.
 include test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
 
-test_chat_gui/qrc_images.cxx: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/resources/images/icon.png
+test_chat_gui/qrc_images.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/resources/images/icon.png
 test_chat_gui/qrc_images.cxx: test_chat_gui/resources/images.qrc.depends
-test_chat_gui/qrc_images.cxx: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/resources/images.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name images -o /home/mark/Project/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx /home/mark/Project/TestingROS_Gui/src/test_chat_gui/resources/images.qrc
+test_chat_gui/qrc_images.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/resources/images.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name images -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/resources/images.qrc
 
-test_chat_gui/ui_main_window.h: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/mark/Project/TestingROS_Gui/build/test_chat_gui/ui_main_window.h /home/mark/Project/TestingROS_Gui/src/test_chat_gui/ui/main_window.ui
+test_chat_gui/ui_main_window.h: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/ui_main_window.h /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/ui/main_window.ui
 
-test_chat_gui/include/test_chat_gui/moc_qnode.cxx: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
+test_chat_gui/include/test_chat_gui/moc_qnode.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/qnode.hpp
 test_chat_gui/include/test_chat_gui/moc_qnode.cxx: test_chat_gui/include/test_chat_gui/moc_qnode.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/test_chat_gui/moc_qnode.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/test_chat_gui/moc_qnode.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx_parameters
 
-test_chat_gui/include/test_chat_gui/moc_main_window.cxx: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/main_window.hpp
+test_chat_gui/include/test_chat_gui/moc_main_window.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include/test_chat_gui/main_window.hpp
 test_chat_gui/include/test_chat_gui/moc_main_window.cxx: test_chat_gui/include/test_chat_gui/moc_main_window.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/test_chat_gui/moc_main_window.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/test_chat_gui/moc_main_window.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx_parameters
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o: test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
-test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o -c /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp
+test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_chat_gui.dir/src/main_window.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp > CMakeFiles/test_chat_gui.dir/src/main_window.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp > CMakeFiles/test_chat_gui.dir/src/main_window.cpp.i
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_chat_gui.dir/src/main_window.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp -o CMakeFiles/test_chat_gui.dir/src/main_window.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main_window.cpp -o CMakeFiles/test_chat_gui.dir/src/main_window.cpp.s
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o.requires:
 
@@ -102,17 +102,17 @@ test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o.provides.build:
 
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o: test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
-test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/src/main.cpp.o -c /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main.cpp
+test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/src/main.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_chat_gui.dir/src/main.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main.cpp > CMakeFiles/test_chat_gui.dir/src/main.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp > CMakeFiles/test_chat_gui.dir/src/main.cpp.i
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_chat_gui.dir/src/main.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/main.cpp -o CMakeFiles/test_chat_gui.dir/src/main.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/main.cpp -o CMakeFiles/test_chat_gui.dir/src/main.cpp.s
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o.requires:
 
@@ -126,17 +126,17 @@ test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o.provides.build: test_c
 
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o: test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
-test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o: /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o -c /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp
+test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_chat_gui.dir/src/qnode.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp > CMakeFiles/test_chat_gui.dir/src/qnode.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp > CMakeFiles/test_chat_gui.dir/src/qnode.cpp.i
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_chat_gui.dir/src/qnode.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp -o CMakeFiles/test_chat_gui.dir/src/qnode.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/src/qnode.cpp -o CMakeFiles/test_chat_gui.dir/src/qnode.cpp.s
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o.requires:
 
@@ -151,16 +151,16 @@ test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o.provides.build: test_
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o: test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
 test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o: test_chat_gui/qrc_images.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o -c /home/mark/Project/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_chat_gui.dir/qrc_images.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx > CMakeFiles/test_chat_gui.dir/qrc_images.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx > CMakeFiles/test_chat_gui.dir/qrc_images.cxx.i
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_chat_gui.dir/qrc_images.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx -o CMakeFiles/test_chat_gui.dir/qrc_images.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/qrc_images.cxx -o CMakeFiles/test_chat_gui.dir/qrc_images.cxx.s
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o.requires:
 
@@ -175,16 +175,16 @@ test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o.provides.build: test
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o: test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o: test_chat_gui/include/test_chat_gui/moc_qnode.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o -c /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx > CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx > CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.i
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_qnode.cxx -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.s
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o.requires:
 
@@ -199,16 +199,16 @@ test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o: test_chat_gui/CMakeFiles/test_chat_gui.dir/flags.make
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o: test_chat_gui/include/test_chat_gui/moc_main_window.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o -c /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx > CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx > CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.i
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && clang++-5.0  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/include/test_chat_gui/moc_main_window.cxx -o CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.s
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o.requires:
 
@@ -233,40 +233,40 @@ test_chat_gui_OBJECTS = \
 # External object files for target test_chat_gui
 test_chat_gui_EXTERNAL_OBJECTS =
 
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libroscpp.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librosconsole.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librostime.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui"
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_chat_gui.dir/link.txt --verbose=$(VERBOSE)
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libroscpp.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librosconsole.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/librostime.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_chat_gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-test_chat_gui/CMakeFiles/test_chat_gui.dir/build: /home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui
+test_chat_gui/CMakeFiles/test_chat_gui.dir/build: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui
 
 .PHONY : test_chat_gui/CMakeFiles/test_chat_gui.dir/build
 
@@ -280,13 +280,13 @@ test_chat_gui/CMakeFiles/test_chat_gui.dir/requires: test_chat_gui/CMakeFiles/te
 .PHONY : test_chat_gui/CMakeFiles/test_chat_gui.dir/requires
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/test_chat_gui && $(CMAKE_COMMAND) -P CMakeFiles/test_chat_gui.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui && $(CMAKE_COMMAND) -P CMakeFiles/test_chat_gui.dir/cmake_clean.cmake
 .PHONY : test_chat_gui/CMakeFiles/test_chat_gui.dir/clean
 
 test_chat_gui/CMakeFiles/test_chat_gui.dir/depend: test_chat_gui/qrc_images.cxx
 test_chat_gui/CMakeFiles/test_chat_gui.dir/depend: test_chat_gui/ui_main_window.h
 test_chat_gui/CMakeFiles/test_chat_gui.dir/depend: test_chat_gui/include/test_chat_gui/moc_qnode.cxx
 test_chat_gui/CMakeFiles/test_chat_gui.dir/depend: test_chat_gui/include/test_chat_gui/moc_main_window.cxx
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/test_chat_gui /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/test_chat_gui /home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/test_chat_gui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test_chat_gui/CMakeFiles/test_chat_gui.dir/depend
 

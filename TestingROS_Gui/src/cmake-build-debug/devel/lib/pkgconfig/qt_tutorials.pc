@@ -1,0 +1,8 @@
+prefix=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel
+
+Name: qt_tutorials
+Description: Description of qt_tutorials
+Version: 0.2.10
+Cflags: -I/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/include
+Libs: -L/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel/lib 
+Requires: message_runtime std_msgs roscpp

@@ -1,4 +1,4 @@
-/home/mark/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mark/Project/TestingROS_Gui/src
+/home/mark/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,16 +13,16 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Using CATKIN_DEVEL_PREFIX: /home/mark/Project/TestingROS_Gui/src/cmake-build-debug/devel
--- Using CMAKE_PREFIX_PATH: /home/mark/catkin_ws/devel;/opt/ros/kinetic
--- This workspace overlays: /home/mark/catkin_ws/devel;/opt/ros/kinetic
+-- Using CATKIN_DEVEL_PREFIX: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/mark/ROS_example/robot_ws/devel;/home/mark/Project/TestingROS_Gui/devel;/home/mark/catkin_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/mark/ROS_example/robot_ws/devel;/home/mark/Project/TestingROS_Gui/devel;/home/mark/catkin_ws/devel;/opt/ros/kinetic
 -- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 -- Using Debian Python package layout
 -- Using empy: /usr/bin/empy
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
--- Using CATKIN_TEST_RESULTS_DIR: /home/mark/Project/TestingROS_Gui/src/cmake-build-debug/test_results
+-- Using CATKIN_TEST_RESULTS_DIR: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug/test_results
 -- Found gmock sources under '/usr/src/gmock': gmock will be built
 -- Looking for pthread.h
 -- Looking for pthread.h - found
@@ -37,6 +37,48 @@
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.7.11
 -- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 8 packages in topological order:
+-- ~~  - qt_build
+-- ~~  - qt_create
+-- ~~  - qt_ros (metapackage)
+-- ~~  - chat_messages
+-- ~~  - chat_model
+-- ~~  - gui
+-- ~~  - qt_tutorials
+-- ~~  - test_chat_gui
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'qt_build'
+-- ==> add_subdirectory(qt_ros/qt_build)
+-- +++ processing catkin package: 'qt_create'
+-- ==> add_subdirectory(qt_ros/qt_create)
+-- +++ processing catkin metapackage: 'qt_ros'
+-- ==> add_subdirectory(qt_ros/qt_ros)
+-- +++ processing catkin package: 'chat_messages'
+-- ==> add_subdirectory(chat_messages)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- chat_messages: 2 messages, 0 services
+-- +++ processing catkin package: 'chat_model'
+-- ==> add_subdirectory(chat_model)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'gui'
+-- ==> add_subdirectory(gui)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Looking for Q_WS_X11
+-- Looking for Q_WS_X11 - found
+-- Looking for Q_WS_WIN
+-- Looking for Q_WS_WIN - not found
+-- Looking for Q_WS_QWS
+-- Looking for Q_WS_QWS - not found
+-- Looking for Q_WS_MAC
+-- Looking for Q_WS_MAC - not found
+-- Found Qt4: /usr/bin/qmake-qt4 (found version "4.8.7") 
+-- +++ processing catkin package: 'qt_tutorials'
+-- ==> add_subdirectory(qt_ros/qt_tutorials)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- qt_tutorials: 0 messages, 1 services
+-- +++ processing catkin package: 'test_chat_gui'
+-- ==> add_subdirectory(test_chat_gui)
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mark/Project/TestingROS_Gui/src/cmake-build-debug
+-- Build files have been written to: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/cmake-build-debug

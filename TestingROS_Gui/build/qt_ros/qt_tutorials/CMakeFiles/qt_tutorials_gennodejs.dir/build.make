@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Utility rule file for qt_tutorials_gennodejs.
 
@@ -63,10 +63,10 @@ qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/build: qt_tutorials_ge
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/build
 
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/qt_tutorials_gennodejs.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/qt_tutorials_gennodejs.dir/cmake_clean.cmake
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/clean
 
 qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/qt_tutorials_gennodejs.dir/depend
 

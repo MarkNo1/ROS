@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qt_tutorials_generate_messages_py"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials/srv/_TwoInts.py"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials/srv/__init__.py"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials/srv/_TwoInts.py"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/qt_tutorials/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

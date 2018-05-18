@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/chat_messages_generate_messages_eus"
-  "/home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/chat_messages/msg/Text_message.l"
-  "/home/mark/Project/TestingROS_Gui/devel/share/roseus/ros/chat_messages/manifest.l"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/chat_messages/msg/Text_message.l"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/chat_messages/msg/BinaryFile.l"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/share/roseus/ros/chat_messages/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

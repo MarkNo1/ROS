@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/mark/Project/TestingROS_Gui/build"
+export PWD="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build"

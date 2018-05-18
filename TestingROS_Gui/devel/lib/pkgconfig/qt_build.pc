@@ -1,8 +1,8 @@
-prefix=/home/mark/Project/TestingROS_Gui/devel
+prefix=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel
 
 Name: qt_build
 Description: Description of qt_build
 Version: 0.2.10
 Cflags: 
-Libs: -L/home/mark/Project/TestingROS_Gui/devel/lib 
+Libs: -L/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib 
 Requires: 

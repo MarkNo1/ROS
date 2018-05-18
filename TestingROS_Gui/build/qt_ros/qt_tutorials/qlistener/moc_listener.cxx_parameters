@@ -1,11 +1,11 @@
--I/home/mark/Project/TestingROS_Gui/devel/include
+-I/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include
 -I/opt/ros/kinetic/include
 -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
 -I/usr/include
 -I/usr/include/qt4
 -I/usr/include/qt4/QtGui
 -I/usr/include/qt4/QtCore
--I/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials
+-I/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_PACKAGE_NAME="qt_tutorials"
 -DROSCONSOLE_BACKEND_LOG4CXX
@@ -14,5 +14,5 @@
 -DQT_CORE_LIB
 -DQT_NO_KEYWORDS
 -o
-/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/moc_listener.cxx
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/listener.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qlistener/moc_listener.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qlistener/listener.hpp

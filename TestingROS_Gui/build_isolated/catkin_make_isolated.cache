@@ -1,0 +1,2 @@
+chat_messages:chat_model:gui:qt_ros/qt_build:qt_ros/qt_create:qt_ros/qt_ros:qt_ros/qt_tutorials:test_chat_gui
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install_isolated

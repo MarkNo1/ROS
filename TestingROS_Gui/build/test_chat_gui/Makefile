@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles /home/mark/Project/TestingROS_Gui/build/test_chat_gui/CMakeFiles/progress.marks
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Project/TestingROS_Gui/build/CMakeFiles 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/CMakeFiles/progress.marks
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/clean
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/preinstall
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test_chat_gui/CMakeFiles/test_chat_gui.dir/rule:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/CMakeFiles/test_chat_gui.dir/rule
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f CMakeFiles/Makefile2 test_chat_gui/CMakeFiles/test_chat_gui.dir/rule
 .PHONY : test_chat_gui/CMakeFiles/test_chat_gui.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ test_chat_gui: test_chat_gui/CMakeFiles/test_chat_gui.dir/rule
 
 # fast build rule for target.
 test_chat_gui/fast:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/build
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/build
 .PHONY : test_chat_gui/fast
 
 include/test_chat_gui/moc_main_window.o: include/test_chat_gui/moc_main_window.cxx.o
@@ -186,7 +186,7 @@ include/test_chat_gui/moc_main_window.o: include/test_chat_gui/moc_main_window.c
 
 # target to build an object file
 include/test_chat_gui/moc_main_window.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o
 .PHONY : include/test_chat_gui/moc_main_window.cxx.o
 
 include/test_chat_gui/moc_main_window.i: include/test_chat_gui/moc_main_window.cxx.i
@@ -195,7 +195,7 @@ include/test_chat_gui/moc_main_window.i: include/test_chat_gui/moc_main_window.c
 
 # target to preprocess a source file
 include/test_chat_gui/moc_main_window.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.i
 .PHONY : include/test_chat_gui/moc_main_window.cxx.i
 
 include/test_chat_gui/moc_main_window.s: include/test_chat_gui/moc_main_window.cxx.s
@@ -204,7 +204,7 @@ include/test_chat_gui/moc_main_window.s: include/test_chat_gui/moc_main_window.c
 
 # target to generate assembly for a file
 include/test_chat_gui/moc_main_window.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.s
 .PHONY : include/test_chat_gui/moc_main_window.cxx.s
 
 include/test_chat_gui/moc_qnode.o: include/test_chat_gui/moc_qnode.cxx.o
@@ -213,7 +213,7 @@ include/test_chat_gui/moc_qnode.o: include/test_chat_gui/moc_qnode.cxx.o
 
 # target to build an object file
 include/test_chat_gui/moc_qnode.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o
 .PHONY : include/test_chat_gui/moc_qnode.cxx.o
 
 include/test_chat_gui/moc_qnode.i: include/test_chat_gui/moc_qnode.cxx.i
@@ -222,7 +222,7 @@ include/test_chat_gui/moc_qnode.i: include/test_chat_gui/moc_qnode.cxx.i
 
 # target to preprocess a source file
 include/test_chat_gui/moc_qnode.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.i
 .PHONY : include/test_chat_gui/moc_qnode.cxx.i
 
 include/test_chat_gui/moc_qnode.s: include/test_chat_gui/moc_qnode.cxx.s
@@ -231,7 +231,7 @@ include/test_chat_gui/moc_qnode.s: include/test_chat_gui/moc_qnode.cxx.s
 
 # target to generate assembly for a file
 include/test_chat_gui/moc_qnode.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.s
 .PHONY : include/test_chat_gui/moc_qnode.cxx.s
 
 qrc_images.o: qrc_images.cxx.o
@@ -240,7 +240,7 @@ qrc_images.o: qrc_images.cxx.o
 
 # target to build an object file
 qrc_images.cxx.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o
 .PHONY : qrc_images.cxx.o
 
 qrc_images.i: qrc_images.cxx.i
@@ -249,7 +249,7 @@ qrc_images.i: qrc_images.cxx.i
 
 # target to preprocess a source file
 qrc_images.cxx.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.i
 .PHONY : qrc_images.cxx.i
 
 qrc_images.s: qrc_images.cxx.s
@@ -258,7 +258,7 @@ qrc_images.s: qrc_images.cxx.s
 
 # target to generate assembly for a file
 qrc_images.cxx.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/qrc_images.cxx.s
 .PHONY : qrc_images.cxx.s
 
 src/main.o: src/main.cpp.o
@@ -267,7 +267,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -276,7 +276,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -285,7 +285,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/main_window.o: src/main_window.cpp.o
@@ -294,7 +294,7 @@ src/main_window.o: src/main_window.cpp.o
 
 # target to build an object file
 src/main_window.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.o
 .PHONY : src/main_window.cpp.o
 
 src/main_window.i: src/main_window.cpp.i
@@ -303,7 +303,7 @@ src/main_window.i: src/main_window.cpp.i
 
 # target to preprocess a source file
 src/main_window.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.i
 .PHONY : src/main_window.cpp.i
 
 src/main_window.s: src/main_window.cpp.s
@@ -312,7 +312,7 @@ src/main_window.s: src/main_window.cpp.s
 
 # target to generate assembly for a file
 src/main_window.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/main_window.cpp.s
 .PHONY : src/main_window.cpp.s
 
 src/qnode.o: src/qnode.cpp.o
@@ -321,7 +321,7 @@ src/qnode.o: src/qnode.cpp.o
 
 # target to build an object file
 src/qnode.cpp.o:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.o
 .PHONY : src/qnode.cpp.o
 
 src/qnode.i: src/qnode.cpp.i
@@ -330,7 +330,7 @@ src/qnode.i: src/qnode.cpp.i
 
 # target to preprocess a source file
 src/qnode.cpp.i:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.i
 .PHONY : src/qnode.cpp.i
 
 src/qnode.s: src/qnode.cpp.s
@@ -339,7 +339,7 @@ src/qnode.s: src/qnode.cpp.s
 
 # target to generate assembly for a file
 src/qnode.cpp.s:
-	cd /home/mark/Project/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(MAKE) -f test_chat_gui/CMakeFiles/test_chat_gui.dir/build.make test_chat_gui/CMakeFiles/test_chat_gui.dir/src/qnode.cpp.s
 .PHONY : src/qnode.cpp.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

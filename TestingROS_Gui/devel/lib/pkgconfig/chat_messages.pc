@@ -1,8 +1,8 @@
-prefix=/home/mark/Project/TestingROS_Gui/devel
+prefix=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel
 
 Name: chat_messages
 Description: Description of chat_messages
 Version: 0.0.0
-Cflags: -I/home/mark/Project/TestingROS_Gui/devel/include
-Libs: -L/home/mark/Project/TestingROS_Gui/devel/lib 
+Cflags: -I/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include
+Libs: -L/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib 
 Requires: message_generation roscpp std_msgs

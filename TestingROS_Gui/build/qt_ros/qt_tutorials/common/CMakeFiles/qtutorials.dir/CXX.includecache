@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_main_window.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_main_window.cxx
 ../../../../src/qt_ros/qt_tutorials/common/main_window.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 
-/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_qnode.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/moc_qnode.cxx
 ../../../../src/qt_ros/qt_tutorials/common/qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 
-/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/common/qrc_images.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/common/qrc_images.cxx
 QtCore/qglobal.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.cpp
 QtGui
 -
 QMessageBox
@@ -26,17 +26,17 @@ QMessageBox
 iostream
 -
 main_window.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/main_window.hpp
 QtGui/QMainWindow
 -
 common/ui_main_window.h
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/common/ui_main_window.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/common/ui_main_window.h
 qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.cpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.cpp
 ros/ros.h
 -
 ros/network.h
@@ -44,13 +44,13 @@ ros/network.h
 string
 -
 qnode.hpp
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 std_msgs/String.h
 -
 sstream
 -
 
-/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/common/qnode.hpp
 ros/ros.h
 -
 string

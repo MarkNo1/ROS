@@ -8,14 +8,14 @@ project(gui)
 ## Compile as C++11, supported in ROS Kinetic and newer
 set(CMAKE_CXX_COMPILER "clang++-5.0")
 set(CMAKE_C_COMPILER "clang-5.0")
-
+set(CMAKE_CXX_STANDARD 11)
 
 ##############################################################################
 # Catkin
 ##############################################################################
 
 # qt_build provides the qt cmake glue, roscpp the comms for a default talker
-find_package(catkin REQUIRED COMPONENTS qt_build roscpp chat_model)
+find_package(catkin REQUIRED COMPONENTS qt_build roscpp chat_model chat_messages)
 include_directories(${catkin_INCLUDE_DIRS})
 # Use this to define what the package will export (e.g. libs, headers).
 # Since the default here is to produce only a binary, we don't worry about

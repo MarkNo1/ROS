@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qt_tutorials_generate_messages_cpp"
-  "/home/mark/Project/TestingROS_Gui/devel/include/qt_tutorials/TwoInts.h"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include/qt_tutorials/TwoInts.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_create"
+echo_and_run cd "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/mark/Project/TestingROS_Gui/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/mark/Project/TestingROS_Gui/install/lib/python2.7/dist-packages:/home/mark/Project/TestingROS_Gui/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/mark/Project/TestingROS_Gui/build" \
+    PYTHONPATH="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/lib/python2.7/dist-packages:/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build" \
     "/usr/bin/python" \
-    "/home/mark/Project/TestingROS_Gui/src/qt_ros/qt_create/setup.py" \
-    build --build-base "/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_create" \
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_create/setup.py" \
+    build --build-base "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_create" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/mark/Project/TestingROS_Gui/install" --install-scripts="/home/mark/Project/TestingROS_Gui/install/bin"
+    --install-layout=deb --prefix="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install" --install-scripts="/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install/bin"

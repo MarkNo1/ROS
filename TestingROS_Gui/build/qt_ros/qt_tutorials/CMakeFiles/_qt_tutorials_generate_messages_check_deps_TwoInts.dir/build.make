@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Utility rule file for _qt_tutorials_generate_messages_check_deps_TwoInts.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
 include qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/progress.make
 
 qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts:
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py qt_tutorials /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv 
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/srv/TwoInts.srv 
 
 _qt_tutorials_generate_messages_check_deps_TwoInts: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts
 _qt_tutorials_generate_messages_check_deps_TwoInts: qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/build.make
@@ -67,10 +67,10 @@ qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInt
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/build
 
 qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/cmake_clean.cmake
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/clean
 
 qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qt_ros/qt_tutorials/CMakeFiles/_qt_tutorials_generate_messages_check_deps_TwoInts.dir/depend
 

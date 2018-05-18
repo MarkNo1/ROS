@@ -1,8 +1,8 @@
-# Install script for directory: /home/mark/Project/TestingROS_Gui/src/test_chat_gui
+# Install script for directory: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mark/Project/TestingROS_Gui/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/catkin_generated/installspace/test_chat_gui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/catkin_generated/installspace/test_chat_gui.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_chat_gui/cmake" TYPE FILE FILES
-    "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/catkin_generated/installspace/test_chat_guiConfig.cmake"
-    "/home/mark/Project/TestingROS_Gui/build/test_chat_gui/catkin_generated/installspace/test_chat_guiConfig-version.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/catkin_generated/installspace/test_chat_guiConfig.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/test_chat_gui/catkin_generated/installspace/test_chat_guiConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_chat_gui" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/src/test_chat_gui/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_chat_gui" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_chat_gui/test_chat_gui"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_chat_gui" TYPE EXECUTABLE FILES "/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_chat_gui" TYPE EXECUTABLE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_chat_gui/test_chat_gui" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_chat_gui/test_chat_gui")
     file(RPATH_CHANGE

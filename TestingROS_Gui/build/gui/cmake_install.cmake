@@ -1,8 +1,8 @@
-# Install script for directory: /home/mark/Project/TestingROS_Gui/src/gui
+# Install script for directory: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mark/Project/TestingROS_Gui/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/gui/catkin_generated/installspace/gui.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/catkin_generated/installspace/gui.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gui/cmake" TYPE FILE FILES
-    "/home/mark/Project/TestingROS_Gui/build/gui/catkin_generated/installspace/guiConfig.cmake"
-    "/home/mark/Project/TestingROS_Gui/build/gui/catkin_generated/installspace/guiConfig-version.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/catkin_generated/installspace/guiConfig.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/gui/catkin_generated/installspace/guiConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gui" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/src/gui/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gui" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/gui/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,12 +54,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gui/gui"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gui" TYPE EXECUTABLE FILES "/home/mark/Project/TestingROS_Gui/devel/lib/gui/gui")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gui" TYPE EXECUTABLE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/gui/gui")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gui/gui" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gui/gui")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gui/gui"
-         OLD_RPATH "/home/mark/Project/TestingROS_Gui/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gui/gui")

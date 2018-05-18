@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mark/Project/TestingROS_Gui/devel/include/chat_messages/Text_message.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/include/chat_messages/BinaryFile.h
 string
 -
 vector
@@ -24,38 +24,28 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/chat_model/include/chat_model/Display.h
-iostream
--
-ros/ros.h
--
-sstream
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include/chat_model/PublishNodeHandler.h
+chat_messages/BinaryFile.h
 -
 string
 -
-chat_messages/Text_message.h
--
-
-/home/mark/Project/TestingROS_Gui/src/chat_model/include/chat_model/Keyboard.h
-iostream
--
 ros/ros.h
 -
-sstream
+
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/include/chat_model/SubscriberNodeHandler.h
+chat_messages/BinaryFile.h
 -
 string
 -
-chat_messages/Text_message.h
+ros/ros.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/chat_model/src/Display.cpp
-chat_model/Display.h
--
-chat_messages/Text_message.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/src/PublishNodeHandler.cpp
+chat_model/PublishNodeHandler.h
 -
 
-/home/mark/Project/TestingROS_Gui/src/chat_model/src/Keyboard.cpp
-chat_model/Keyboard.h
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/src/SubscriberNodeHandler.cpp
+chat_model/SubscriberNodeHandler.h
 -
 
 /opt/ros/kinetic/include/ros/advertise_options.h

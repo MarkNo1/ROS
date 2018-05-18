@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtalker.dir/main.cpp.o"
   "CMakeFiles/qtalker.dir/talker.cpp.o"
   "CMakeFiles/qtalker.dir/moc_talker.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker.pdb"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker.pdb"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker"
 )
 
 # Per-language clean rules from dependency scanning.

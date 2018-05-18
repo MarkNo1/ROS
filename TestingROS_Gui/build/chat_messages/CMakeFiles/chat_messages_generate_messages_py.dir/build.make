@@ -43,34 +43,43 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Utility rule file for chat_messages_generate_messages_py.
 
 # Include the progress variables for this target.
 include chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/progress.make
 
-chat_messages/CMakeFiles/chat_messages_generate_messages_py: /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py
-chat_messages/CMakeFiles/chat_messages_generate_messages_py: /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py
+chat_messages/CMakeFiles/chat_messages_generate_messages_py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py
+chat_messages/CMakeFiles/chat_messages_generate_messages_py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_BinaryFile.py
+chat_messages/CMakeFiles/chat_messages_generate_messages_py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py
 
 
-/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py: /home/mark/Project/TestingROS_Gui/src/chat_messages/msg/Text_message.msg
-/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG chat_messages/Text_message"
-	cd /home/mark/Project/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mark/Project/TestingROS_Gui/src/chat_messages/msg/Text_message.msg -Ichat_messages:/home/mark/Project/TestingROS_Gui/src/chat_messages/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p chat_messages -o /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg/Text_message.msg
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG chat_messages/Text_message"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg/Text_message.msg -Ichat_messages:/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p chat_messages -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg
 
-/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py: /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for chat_messages"
-	cd /home/mark/Project/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg --initpy
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_BinaryFile.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_BinaryFile.py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg/BinaryFile.msg
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_BinaryFile.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG chat_messages/BinaryFile"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg/BinaryFile.msg -Ichat_messages:/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p chat_messages -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg
+
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_BinaryFile.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for chat_messages"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg --initpy
 
 chat_messages_generate_messages_py: chat_messages/CMakeFiles/chat_messages_generate_messages_py
-chat_messages_generate_messages_py: /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py
-chat_messages_generate_messages_py: /home/mark/Project/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py
+chat_messages_generate_messages_py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_Text_message.py
+chat_messages_generate_messages_py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/_BinaryFile.py
+chat_messages_generate_messages_py: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/python2.7/dist-packages/chat_messages/msg/__init__.py
 chat_messages_generate_messages_py: chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/build.make
 
 .PHONY : chat_messages_generate_messages_py
@@ -81,10 +90,10 @@ chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/build: chat_mess
 .PHONY : chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/build
 
 chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/chat_messages && $(CMAKE_COMMAND) -P CMakeFiles/chat_messages_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages && $(CMAKE_COMMAND) -P CMakeFiles/chat_messages_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/clean
 
 chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/depend:
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/chat_messages /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/chat_messages /home/mark/Project/TestingROS_Gui/build/chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : chat_messages/CMakeFiles/chat_messages_generate_messages_py.dir/depend
 

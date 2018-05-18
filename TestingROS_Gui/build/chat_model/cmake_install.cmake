@@ -1,8 +1,8 @@
-# Install script for directory: /home/mark/Project/TestingROS_Gui/src/chat_model
+# Install script for directory: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mark/Project/TestingROS_Gui/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/build/chat_model/catkin_generated/installspace/chat_model.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_model/catkin_generated/installspace/chat_model.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat_model/cmake" TYPE FILE FILES
-    "/home/mark/Project/TestingROS_Gui/build/chat_model/catkin_generated/installspace/chat_modelConfig.cmake"
-    "/home/mark/Project/TestingROS_Gui/build/chat_model/catkin_generated/installspace/chat_modelConfig-version.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_model/catkin_generated/installspace/chat_modelConfig.cmake"
+    "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/chat_model/catkin_generated/installspace/chat_modelConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat_model" TYPE FILE FILES "/home/mark/Project/TestingROS_Gui/src/chat_model/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chat_model" TYPE FILE FILES "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/chat_model/package.xml")
 endif()
 

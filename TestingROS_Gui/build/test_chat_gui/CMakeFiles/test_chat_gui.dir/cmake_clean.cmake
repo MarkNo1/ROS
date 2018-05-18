@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_chat_gui.dir/qrc_images.cxx.o"
   "CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_qnode.cxx.o"
   "CMakeFiles/test_chat_gui.dir/include/test_chat_gui/moc_main_window.cxx.o"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui.pdb"
-  "/home/mark/Project/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui.pdb"
+  "/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/test_chat_gui/test_chat_gui"
 )
 
 # Per-language clean rules from dependency scanning.

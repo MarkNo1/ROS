@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: chat_model
+Description: Description of chat_model
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lchat_model
+Requires: roscpp chat_messages

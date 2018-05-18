@@ -40,8 +40,9 @@ public:
     QHBoxLayout *hboxLayout;
     QGroupBox *groupBox_12;
     QGridLayout *gridLayout_3;
-    QListView *display_board;
     QTextEdit *keyboard_board;
+    QListView *display_board;
+    QPushButton *send_file;
     QPushButton *send_button;
     QMenuBar *menubar;
     QMenu *menu_File;
@@ -51,7 +52,6 @@ public:
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QString::fromUtf8("MainWindowDesign"));
-        MainWindowDesign->resize(944, 704);
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/images/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindowDesign->setWindowIcon(icon);
@@ -68,7 +68,9 @@ public:
         centralwidget = new QWidget(MainWindowDesign);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         hboxLayout = new QHBoxLayout(centralwidget);
+        hboxLayout->setSpacing(2);
         hboxLayout->setObjectName(QString::fromUtf8("hboxLayout"));
+        hboxLayout->setContentsMargins(2, 5, 2, 2);
         groupBox_12 = new QGroupBox(centralwidget);
         groupBox_12->setObjectName(QString::fromUtf8("groupBox_12"));
         QSizePolicy sizePolicy(QSizePolicy::MinimumExpanding, QSizePolicy::Preferred);
@@ -77,22 +79,29 @@ public:
         sizePolicy.setHeightForWidth(groupBox_12->sizePolicy().hasHeightForWidth());
         groupBox_12->setSizePolicy(sizePolicy);
         gridLayout_3 = new QGridLayout(groupBox_12);
+        gridLayout_3->setSpacing(1);
         gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
+        gridLayout_3->setContentsMargins(1, 5, 1, 1);
+        keyboard_board = new QTextEdit(groupBox_12);
+        keyboard_board->setObjectName(QString::fromUtf8("keyboard_board"));
+        keyboard_board->setMaximumSize(QSize(16777215, 40));
+
+        gridLayout_3->addWidget(keyboard_board, 2, 0, 1, 1);
+
         display_board = new QListView(groupBox_12);
         display_board->setObjectName(QString::fromUtf8("display_board"));
 
         gridLayout_3->addWidget(display_board, 0, 0, 1, 1);
 
-        keyboard_board = new QTextEdit(groupBox_12);
-        keyboard_board->setObjectName(QString::fromUtf8("keyboard_board"));
-        keyboard_board->setMaximumSize(QSize(16777215, 30));
+        send_file = new QPushButton(groupBox_12);
+        send_file->setObjectName(QString::fromUtf8("send_file"));
 
-        gridLayout_3->addWidget(keyboard_board, 1, 0, 1, 1);
+        gridLayout_3->addWidget(send_file, 1, 1, 1, 1);
 
         send_button = new QPushButton(groupBox_12);
         send_button->setObjectName(QString::fromUtf8("send_button"));
 
-        gridLayout_3->addWidget(send_button, 1, 1, 1, 1);
+        gridLayout_3->addWidget(send_button, 2, 1, 1, 1);
 
 
         hboxLayout->addWidget(groupBox_12);
@@ -100,7 +109,7 @@ public:
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 944, 17));
+        menubar->setGeometry(QRect(0, 0, 627, 17));
         menu_File = new QMenu(menubar);
         menu_File->setObjectName(QString::fromUtf8("menu_File"));
         MainWindowDesign->setMenuBar(menubar);
@@ -131,6 +140,7 @@ public:
         actionAbout->setText(QApplication::translate("MainWindowDesign", "&About", 0, QApplication::UnicodeUTF8));
         actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", 0, QApplication::UnicodeUTF8));
         groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "Mainboard", 0, QApplication::UnicodeUTF8));
+        send_file->setText(QApplication::translate("MainWindowDesign", "SendFile", 0, QApplication::UnicodeUTF8));
         send_button->setText(QApplication::translate("MainWindowDesign", "Send", 0, QApplication::UnicodeUTF8));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

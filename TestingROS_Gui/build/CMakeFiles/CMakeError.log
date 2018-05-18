@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd829/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd829.dir/build.make CMakeFiles/cmTC_bd829.dir/build
-make[1]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd829.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_bd829.dir/CheckSymbolExists.c.o   -c /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_bd829
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd829.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bd829.dir/CheckSymbolExists.c.o  -o cmTC_bd829 -rdynamic 
-CMakeFiles/cmTC_bd829.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_b4804/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4804.dir/build.make CMakeFiles/cmTC_b4804.dir/build
+make[1]: Entering directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4804.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b4804.dir/CheckSymbolExists.c.o   -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b4804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4804.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b4804.dir/CheckSymbolExists.c.o  -o cmTC_b4804 -rdynamic 
+CMakeFiles/cmTC_b4804.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bd829.dir/build.make:97: recipe for target 'cmTC_bd829' failed
-make[1]: *** [cmTC_bd829] Error 1
-make[1]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_bd829/fast' failed
-make: *** [cmTC_bd829/fast] Error 2
+CMakeFiles/cmTC_b4804.dir/build.make:97: recipe for target 'cmTC_b4804' failed
+make[1]: *** [cmTC_b4804] Error 1
+make[1]: Leaving directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b4804/fast' failed
+make: *** [cmTC_b4804/fast] Error 2
 
-File /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,46 +34,44 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_995eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_995eb.dir/build.make CMakeFiles/cmTC_995eb.dir/build
-make[1]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_995eb.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_995eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_995eb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_995eb.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_995eb.dir/CheckFunctionExists.c.o  -o cmTC_995eb -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_7b788/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b788.dir/build.make CMakeFiles/cmTC_7b788.dir/build
+make[1]: Entering directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b788.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7b788.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7b788
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b788.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7b788.dir/CheckFunctionExists.c.o  -o cmTC_7b788 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_995eb.dir/build.make:97: recipe for target 'cmTC_995eb' failed
-make[1]: *** [cmTC_995eb] Error 1
-make[1]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_995eb/fast' failed
-make: *** [cmTC_995eb/fast] Error 2
+CMakeFiles/cmTC_7b788.dir/build.make:97: recipe for target 'cmTC_7b788' failed
+make[1]: *** [cmTC_7b788] Error 1
+make[1]: Leaving directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b788/fast' failed
+make: *** [cmTC_7b788/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07fb0/fast"
-make[1]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_07fb0.dir/build.make CMakeFiles/cmTC_07fb0.dir/build
-make[2]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_07fb0.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_07fb0.dir/CheckSymbolExists.cxx.o -c /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_2fa1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fa1e.dir/build.make CMakeFiles/cmTC_2fa1e.dir/build
+make[1]: Entering directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fa1e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_2fa1e.dir/CheckSymbolExists.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
                    ^
-CMakeFiles/cmTC_07fb0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_07fb0.dir/CheckSymbolExists.cxx.o' failed
-make[2]: *** [CMakeFiles/cmTC_07fb0.dir/CheckSymbolExists.cxx.o] Error 1
-make[2]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_07fb0/fast' failed
-make[1]: *** [cmTC_07fb0/fast] Error 2
-make[1]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_2fa1e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2fa1e.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2fa1e.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2fa1e/fast' failed
+make: *** [cmTC_2fa1e/fast] Error 2
 
-File /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -89,26 +87,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02ddc/fast"
-make[1]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_02ddc.dir/build.make CMakeFiles/cmTC_02ddc.dir/build
-make[2]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_02ddc.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_02ddc.dir/CheckSymbolExists.cxx.o -c /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_3bfd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bfd6.dir/build.make CMakeFiles/cmTC_3bfd6.dir/build
+make[1]: Entering directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bfd6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_3bfd6.dir/CheckSymbolExists.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
                    ^
-CMakeFiles/cmTC_02ddc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02ddc.dir/CheckSymbolExists.cxx.o' failed
-make[2]: *** [CMakeFiles/cmTC_02ddc.dir/CheckSymbolExists.cxx.o] Error 1
-make[2]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_02ddc/fast' failed
-make[1]: *** [cmTC_02ddc/fast] Error 2
-make[1]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_3bfd6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3bfd6.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3bfd6.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3bfd6/fast' failed
+make: *** [cmTC_3bfd6/fast] Error 2
 
-File /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -124,26 +120,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6250d/fast"
-make[1]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6250d.dir/build.make CMakeFiles/cmTC_6250d.dir/build
-make[2]: Entering directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6250d.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_6250d.dir/CheckSymbolExists.cxx.o -c /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_bc6be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc6be.dir/build.make CMakeFiles/cmTC_bc6be.dir/build
+make[1]: Entering directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc6be.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_bc6be.dir/CheckSymbolExists.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
                    ^
-CMakeFiles/cmTC_6250d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6250d.dir/CheckSymbolExists.cxx.o' failed
-make[2]: *** [CMakeFiles/cmTC_6250d.dir/CheckSymbolExists.cxx.o] Error 1
-make[2]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6250d/fast' failed
-make[1]: *** [cmTC_6250d/fast] Error 2
-make[1]: Leaving directory '/home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_bc6be.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bc6be.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_bc6be.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bc6be/fast' failed
+make: *** [cmTC_bc6be/fast] Error 2
 
-File /home/mark/Project/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

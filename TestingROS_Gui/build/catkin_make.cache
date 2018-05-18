@@ -1,2 +1,2 @@
 chat_messages:chat_model:gui:qt_ros/qt_build:qt_ros/qt_create:qt_ros/qt_ros:qt_ros/qt_tutorials:test_chat_gui
--G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/mark/Project/TestingROS_Gui/devel -DCMAKE_INSTALL_PREFIX=/home/mark/Project/TestingROS_Gui/install
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel -DCMAKE_INSTALL_PREFIX=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/install

@@ -2,15 +2,64 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Project" targetName="gmock" />
-      <config projectName="Project" targetName="run_tests" />
-      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="qt_tutorials_generate_messages_eus" />
       <config projectName="Project" targetName="download_extra_data" />
-      <config projectName="Project" targetName="gtest_main" />
-      <config projectName="Project" targetName="doxygen" />
-      <config projectName="Project" targetName="gtest" />
-      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="qt_tutorials_generate_messages_nodejs" />
+      <config projectName="Project" targetName="chat_messages_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_chat_messages_generate_messages_check_deps_Text_message" />
+      <config projectName="Project" targetName="qt_tutorials_genlisp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="qadd_client" />
+      <config projectName="Project" targetName="qt_tutorials_gencpp" />
+      <config projectName="Project" targetName="qt_tutorials_generate_messages_cpp" />
+      <config projectName="Project" targetName="qlistener" />
+      <config projectName="Project" targetName="chat_messages_generate_messages_py" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="chat_model" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="gmock" />
+      <config projectName="Project" targetName="qadd_server" />
+      <config projectName="Project" targetName="qt_tutorials_generate_messages_py" />
+      <config projectName="Project" targetName="chat_messages_genpy" />
       <config projectName="Project" targetName="gmock_main" />
+      <config projectName="Project" targetName="qtutorials" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="chat_messages_geneus" />
+      <config projectName="Project" targetName="chat_messages_generate_messages_eus" />
+      <config projectName="Project" targetName="qt_tutorials_genpy" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="qtalker" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="test_chat_gui" />
+      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="gtest" />
+      <config projectName="Project" targetName="doxygen" />
+      <config projectName="Project" targetName="qt_tutorials_generate_messages_lisp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="chat_messages_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="qt_tutorials_geneus" />
+      <config projectName="Project" targetName="chat_messages_genlisp" />
+      <config projectName="Project" targetName="qt_tutorials_generate_messages" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="chat_messages_gencpp" />
+      <config projectName="Project" targetName="chat_messages_generate_messages_cpp" />
+      <config projectName="Project" targetName="qt_tutorials_gennodejs" />
+      <config projectName="Project" targetName="chat_messages_generate_messages" />
+      <config projectName="Project" targetName="gtest_main" />
+      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="_qt_tutorials_generate_messages_check_deps_TwoInts" />
+      <config projectName="Project" targetName="_chat_messages_generate_messages_check_deps_BinaryFile" />
+      <config projectName="Project" targetName="gui" />
+      <config projectName="Project" targetName="chat_messages_gennodejs" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -29,51 +78,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44136018">
+    <splitter split-orientation="horizontal" split-proportion="0.38933527">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-          <file leaf-file-name="main_window.hpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main_window.hpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gui/include/gui/main_window.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                <state relative-caret-position="616">
+                  <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Display.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/chat_model/src/Display.cpp">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/chat_model/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state relative-caret-position="532">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="qnode.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gui/include/gui/qnode.hpp">
+          <file leaf-file-name="package.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/package.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="151">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                <state relative-caret-position="308">
+                  <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_window.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gui/src/main_window.cpp">
+          <file leaf-file-name="QPublisher.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/include/gui/QPublisher.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+                <state relative-caret-position="462">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="start_gui.launch" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gui/launch/start_gui.launch">
+          <file leaf-file-name="PublishNodeHandler.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/PublishNodeHandler.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+                <state relative-caret-position="350">
+                  <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SubscriberNodeHandler.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/SubscriberNodeHandler.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="226">
+                  <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="QSubscriber.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/include/gui/QSubscriber.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -82,47 +152,95 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-          <file leaf-file-name="qnode.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gui/src/qnode.cpp">
+          <file leaf-file-name="main_window.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/src/main_window.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+                <state relative-caret-position="-517">
+                  <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#280#302#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_window.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_chat_gui/src/main_window.cpp">
+          <file leaf-file-name="gmock.cc" pinned="false" current-in-tab="false">
+            <entry file="file:///usr/src/gmock/src/gmock.cc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                  <folding>
+                    <element signature="e#1601#1625#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gmock-all.cc" pinned="false" current-in-tab="false">
+            <entry file="file:///usr/src/gmock/src/gmock-all.cc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#1978#2015#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gmock_main.cc" pinned="false" current-in-tab="false">
+            <entry file="file:///usr/src/gmock/src/gmock_main.cc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#1601#1620#0" expanded="true" />
+                    <element signature="e#2104#2183#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+            <entry file="file:///usr/src/gmock/CMakeLists.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1576" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="QPublisher.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/src/QPublisher.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="448">
-                  <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+                  <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main_window.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_chat_gui/include/test_chat_gui/main_window.hpp">
+          <file leaf-file-name="QSubscriber.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/src/QSubscriber.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="531">
-                  <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+                <state relative-caret-position="602">
+                  <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#40#70#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="qnode.hpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_chat_gui/include/test_chat_gui/qnode.hpp">
+          <file leaf-file-name="images.qrc" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/resources/images.qrc">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="482">
-                  <caret line="62" column="33" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="33" />
+                <state relative-caret-position="28">
+                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="qnode.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_chat_gui/src/qnode.cpp">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/chat_messages/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="121" column="27" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="27" />
+                <state relative-caret-position="168">
+                  <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -142,6 +260,9 @@
       <find>rosShutdown</find>
       <find>init_argc</find>
       <find>loggingModel</find>
+      <find>Display</find>
+      <find>chat_messages::</find>
+      <find>;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,35 +271,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chat_messages/msg/Text_message.msg" />
-        <option value="$PROJECT_DIR$/chat_messages/package.xml" />
-        <option value="$PROJECT_DIR$/chat_model/src/Keyboard.h" />
-        <option value="$PROJECT_DIR$/chat_messages/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chat_model/package.xml" />
         <option value="$PROJECT_DIR$/chat_model/src/Display.h" />
         <option value="$PROJECT_DIR$/chat_gui/src/main.cpp" />
         <option value="$PROJECT_DIR$/chat_gui/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chat_gui/package.xml" />
         <option value="$PROJECT_DIR$/test_chat_gui/package.xml" />
-        <option value="$PROJECT_DIR$/chat_model/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_chat_gui/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_chat_gui/src/main_window.cpp" />
         <option value="$PROJECT_DIR$/test_chat_gui/src/qnode.cpp" />
         <option value="$PROJECT_DIR$/test_chat_gui/src/main.cpp" />
         <option value="$PROJECT_DIR$/gui/src/main.cpp" />
-        <option value="$PROJECT_DIR$/gui/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/gui/package.xml" />
-        <option value="$PROJECT_DIR$/chat_model/include/chat_model/Keyboard.h" />
-        <option value="$PROJECT_DIR$/chat_model/src/Keyboard.cpp" />
         <option value="$PROJECT_DIR$/gui/src/qsubscriber.cpp" />
         <option value="$PROJECT_DIR$/gui/include/gui/qsubscriber.hpp" />
+        <option value="$PROJECT_DIR$/gui/launch/start_gui.launch" />
+        <option value="$PROJECT_DIR$/chat_model/src/FileReader.cpp" />
+        <option value="$PROJECT_DIR$/chat_model/include/chat_model/FileReader.h" />
         <option value="$PROJECT_DIR$/chat_model/include/chat_model/Display.h" />
         <option value="$PROJECT_DIR$/chat_model/src/Display.cpp" />
-        <option value="$PROJECT_DIR$/gui/include/gui/main_window.hpp" />
+        <option value="$PROJECT_DIR$/chat_model/include/chat_model/Keyboard.h" />
+        <option value="$PROJECT_DIR$/chat_model/src/Keyboard.cpp" />
+        <option value="$PROJECT_DIR$/chat_model/src/SubscriberNodehandler.cpp" />
+        <option value="$PROJECT_DIR$/chat_messages/msg/BinaryFile.msg" />
+        <option value="$PROJECT_DIR$/chat_model/include/chat_model/SubscriberNodehandler.h" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QNodePusblisher.h" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QNodePublisher.cpp" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QNodePublisher.h" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QNodeSubscriber.h" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QNodeSubscriber.cpp" />
+        <option value="$PROJECT_DIR$/gui/src/QNodePublisher.cpp" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QSubscriber.cpp" />
+        <option value="$PROJECT_DIR$/chat_model/src/SubscriberNodeHandler.cpp" />
+        <option value="$PROJECT_DIR$/chat_model/include/chat_model/SubscriberNodeHandler.h" />
+        <option value="$PROJECT_DIR$/chat_messages/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chat_model/include/chat_model/PublishNodeHandler.h" />
+        <option value="$PROJECT_DIR$/chat_model/src/PublishNodeHandler.cpp" />
         <option value="$PROJECT_DIR$/gui/include/gui/qnode.hpp" />
         <option value="$PROJECT_DIR$/gui/src/qnode.cpp" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QPublisher.h" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QSubscriber.h" />
+        <option value="$PROJECT_DIR$/gui/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QPublisher.hpp" />
+        <option value="$PROJECT_DIR$/gui/include/gui/QSubscriber.hpp" />
+        <option value="$PROJECT_DIR$/chat_model/src/MessageManager.cpp" />
+        <option value="$PROJECT_DIR$/chat_model/include/chat_model/MessageManager.h" />
         <option value="$PROJECT_DIR$/gui/src/main_window.cpp" />
-        <option value="$PROJECT_DIR$/gui/launch/start_gui.launch" />
+        <option value="$PROJECT_DIR$/gui/src/QPublisher.cpp" />
+        <option value="$PROJECT_DIR$/gui/src/QSubscriber.cpp" />
+        <option value="$PROJECT_DIR$/gui/resources/images.qrc" />
+        <option value="$PROJECT_DIR$/gui/include/gui/main_window.hpp" />
+        <option value="$PROJECT_DIR$/chat_model/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -193,10 +336,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="287" />
-    <option name="y" value="143" />
-    <option name="width" value="1396" />
-    <option name="height" value="928" />
+    <option name="x" value="206" />
+    <option name="y" value="-3" />
+    <option name="width" value="1392" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,6 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,38 +364,114 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_chat_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_messages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_chat_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_messages" type="462c0819:PsiDirectoryNode" />
+              <item name="msg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_chat_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="test_chat_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_chat_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_model" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qt_ros" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="anode.hpp&#9;FILE&#9;file:///usr/include/boost/intrusive/detail/avltree_node.hpp&#10;Text_message&#9;FILE&#9;file:///home/mark/Project/TestingROS_Gui/src/chat_messages/msg/Text_message.msg&#10;Text_mes&#9;FILE&#9;file:///home/mark/Project/TestingROS_Gui/src/chat_messages/msg/Text_message.msg" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -260,6 +480,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gui/src" />
+      <recent name="$PROJECT_DIR$/chat_model/src" />
       <recent name="$PROJECT_DIR$/test_chat_gui/include/test_chat_gui" />
       <recent name="$PROJECT_DIR$/test_chat_gui/src" />
       <recent name="$PROJECT_DIR$/chat_model/include/chat_model" />
@@ -279,6 +501,22 @@
   </component>
   <component name="RunManager" selected="Application.clean_test_results">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Debug" />
+    <configuration name="_chat_messages_generate_messages_check_deps_BinaryFile" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_chat_messages_generate_messages_check_deps_BinaryFile" CONFIG_NAME="Debug" />
+    <configuration name="_chat_messages_generate_messages_check_deps_Text_message" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_chat_messages_generate_messages_check_deps_Text_message" CONFIG_NAME="Debug" />
+    <configuration name="_qt_tutorials_generate_messages_check_deps_TwoInts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_qt_tutorials_generate_messages_check_deps_TwoInts" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_gencpp" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_generate_messages" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_generate_messages_cpp" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_generate_messages_eus" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_generate_messages_lisp" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_generate_messages_nodejs" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_generate_messages_py" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_geneus" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_genlisp" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_gennodejs" CONFIG_NAME="Debug" />
+    <configuration name="chat_messages_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_messages_genpy" CONFIG_NAME="Debug" />
+    <configuration name="chat_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="chat_model" CONFIG_NAME="Debug" />
     <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug" />
     <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug" />
     <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="doxygen" CONFIG_NAME="Debug" />
@@ -286,7 +524,40 @@
     <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Debug" />
     <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest" CONFIG_NAME="Debug" />
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Debug" />
+    <configuration name="gui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gui" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="gui" />
+    <configuration name="qadd_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qadd_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="qadd_client" />
+    <configuration name="qadd_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qadd_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="qadd_server" />
+    <configuration name="qlistener" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qlistener" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="qlistener" />
+    <configuration name="qt_tutorials_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_gencpp" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_generate_messages" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_generate_messages_cpp" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_generate_messages_eus" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_generate_messages_lisp" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_generate_messages_nodejs" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_generate_messages_py" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_geneus" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_genlisp" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_gennodejs" CONFIG_NAME="Debug" />
+    <configuration name="qt_tutorials_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qt_tutorials_genpy" CONFIG_NAME="Debug" />
+    <configuration name="qtalker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qtalker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="qtalker" />
+    <configuration name="qtutorials" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="qtutorials" CONFIG_NAME="Debug" />
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Debug" />
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Debug" />
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Debug" />
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Debug" />
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Debug" />
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Debug" />
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Debug" />
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Debug" />
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Debug" />
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Debug" />
     <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug" />
+    <configuration name="test_chat_gui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="test_chat_gui" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="test_chat_gui" />
     <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tests" CONFIG_NAME="Debug" />
     <list>
       <item itemvalue="Application.Build All" />
@@ -295,6 +566,55 @@
       <item itemvalue="Application.doxygen" />
       <item itemvalue="Application.run_tests" />
       <item itemvalue="Application.tests" />
+      <item itemvalue="Application._chat_messages_generate_messages_check_deps_BinaryFile" />
+      <item itemvalue="Application._chat_messages_generate_messages_check_deps_Text_message" />
+      <item itemvalue="Application.chat_messages_gencpp" />
+      <item itemvalue="Application.chat_messages_generate_messages" />
+      <item itemvalue="Application.chat_messages_generate_messages_cpp" />
+      <item itemvalue="Application.chat_messages_generate_messages_eus" />
+      <item itemvalue="Application.chat_messages_generate_messages_lisp" />
+      <item itemvalue="Application.chat_messages_generate_messages_nodejs" />
+      <item itemvalue="Application.chat_messages_generate_messages_py" />
+      <item itemvalue="Application.chat_messages_geneus" />
+      <item itemvalue="Application.chat_messages_genlisp" />
+      <item itemvalue="Application.chat_messages_gennodejs" />
+      <item itemvalue="Application.chat_messages_genpy" />
+      <item itemvalue="Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="Application.roscpp_generate_messages_eus" />
+      <item itemvalue="Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="Application.roscpp_generate_messages_py" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.std_msgs_generate_messages_py" />
+      <item itemvalue="Application.chat_model" />
+      <item itemvalue="Application.gui" />
+      <item itemvalue="Application._catkin_empty_exported_target" />
+      <item itemvalue="Application._qt_tutorials_generate_messages_check_deps_TwoInts" />
+      <item itemvalue="Application.qt_tutorials_gencpp" />
+      <item itemvalue="Application.qt_tutorials_generate_messages" />
+      <item itemvalue="Application.qt_tutorials_generate_messages_cpp" />
+      <item itemvalue="Application.qt_tutorials_generate_messages_eus" />
+      <item itemvalue="Application.qt_tutorials_generate_messages_lisp" />
+      <item itemvalue="Application.qt_tutorials_generate_messages_nodejs" />
+      <item itemvalue="Application.qt_tutorials_generate_messages_py" />
+      <item itemvalue="Application.qt_tutorials_geneus" />
+      <item itemvalue="Application.qt_tutorials_genlisp" />
+      <item itemvalue="Application.qt_tutorials_gennodejs" />
+      <item itemvalue="Application.qt_tutorials_genpy" />
+      <item itemvalue="Application.qtutorials" />
+      <item itemvalue="Application.qadd_client" />
+      <item itemvalue="Application.qadd_server" />
+      <item itemvalue="Application.qlistener" />
+      <item itemvalue="Application.qtalker" />
+      <item itemvalue="Application.test_chat_gui" />
       <item itemvalue="Application.gmock" />
       <item itemvalue="Application.gmock_main" />
       <item itemvalue="Application.gtest" />
@@ -314,24 +634,35 @@
       <workItem from="1525080585233" duration="17711000" />
       <workItem from="1525254749678" duration="11811000" />
       <workItem from="1525335221525" duration="6791000" />
+      <workItem from="1525421833635" duration="35000" />
+      <workItem from="1525427967274" duration="3705000" />
+      <workItem from="1525450084227" duration="1049000" />
+      <workItem from="1526411708528" duration="1249000" />
+      <workItem from="1526461789216" duration="45000" />
+      <workItem from="1526474364969" duration="5409000" />
+      <workItem from="1526546094626" duration="13749000" />
+      <workItem from="1526583964139" duration="2082000" />
+      <workItem from="1526630095715" duration="487000" />
+      <workItem from="1526630664736" duration="20227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36313000" />
+    <option name="totallyTimeSpent" value="84350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-17" width="1682" height="1068" extended-state="6" />
+    <frame x="-1" y="-3" width="1682" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13245033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.90400845" visible="true" weight="0.17579772" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37869197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45886075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35443038" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38396624" />
+      <window_info id="Favorites" order="2" sideWeight="0.09599156" side_tool="true" weight="0.17639975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,22 +674,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13305238" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45886075" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.90400845" visible="true" weight="0.17579772" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32911393" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.37869197" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="CMake" order="3" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38396624" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="CMake" order="10" />
+      <window_info id="Favorites" order="2" sideWeight="0.09599156" side_tool="true" weight="0.17639975" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,123 +698,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gui/include/gui/qnode.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/include/gui/main_window.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/src/Display.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/qnode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main_window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/Keyboard.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/include/gui/qnode.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/include/gui/main_window.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main_window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/qnode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat_messages/package.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_messages/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -518,87 +742,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/src/Keyboard.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/Keyboard.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/Display.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_messages/msg/Text_message.msg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_chat_gui/src/qnode.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
+        <state relative-caret-position="1694">
           <caret line="121" column="27" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_chat_gui/include/test_chat_gui/main_window.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="630">
           <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_chat_gui/include/test_chat_gui/qnode.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="868">
           <caret line="62" column="33" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/include/gui/qnode.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -609,38 +770,284 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main_window.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/FileReader.h" />
+    <entry file="file:///usr/include/qt4/QtCore/qobjectdefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/launch/start_gui.launch">
+    <entry file="file://$PROJECT_DIR$/chat_messages/msg/Text_message.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/qt4/QtGui/qfiledialog.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="70" column="65" lean-forward="true" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/qt4/QtGui/qwidget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="94" column="12" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/qt4/QtGui/qevent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-740">
+          <caret line="576" column="19" selection-start-line="576" selection-start-column="19" selection-end-line="576" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/Keyboard.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#161#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/src/Keyboard.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="70" selection-start-line="71" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/Display.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/src/Display.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#256#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/src/SubscriberNodeHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/SubscriberNodeHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_messages/msg/BinaryFile.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/src/PublishNodeHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/qnode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/include/gui/qnode.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/launch/launch_GUI.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/qnode.cpp">
+    <entry file="file://$PROJECT_DIR$/gui/include/gui/QPublisher.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        <state relative-caret-position="462">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_model/src/Display.cpp">
+    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/PublishNodeHandler.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="350">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/include/gui/QSubscriber.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/include/chat_model/MessageManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/src/MessageManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gmock/src/gmock.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1601#1625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gmock/src/gmock-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1978#2015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gmock/src/gmock_main.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1601#1620#0" expanded="true" />
+            <element signature="e#2104#2183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/boost/intrusive/detail/avltree_node.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254">
+          <folding>
+            <element signature="e#644#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/src/gmock/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main_window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="e#280#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/QPublisher.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/QSubscriber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/resources/images/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/resources/images.qrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_messages/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gui/include/gui/main_window.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="616">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_model/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

@@ -1,8 +1,8 @@
-prefix=/home/mark/Project/TestingROS_Gui/devel
+prefix=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel
 
 Name: test_chat_gui
 Description: Description of test_chat_gui
 Version: 0.1.0
-Cflags: -I/home/mark/Project/TestingROS_Gui/src/test_chat_gui/include
-Libs: -L/home/mark/Project/TestingROS_Gui/devel/lib -ltest_chat_gui
+Cflags: -I/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/test_chat_gui/include
+Libs: -L/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib -ltest_chat_gui
 Requires: 

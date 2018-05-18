@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mark/Project/TestingROS_Gui/src
+CMAKE_SOURCE_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mark/Project/TestingROS_Gui/build
+CMAKE_BINARY_DIR = /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build
 
 # Include any dependencies generated for this target.
 include qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/depend.make
@@ -57,23 +57,23 @@ include qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/progress.make
 # Include the compile flags for this target's objects.
 include qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/flags.make
 
-qt_ros/qt_tutorials/qtalker/moc_talker.cxx: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
+qt_ros/qt_tutorials/qtalker/moc_talker.cxx: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.hpp
 qt_ros/qt_tutorials/qtalker/moc_talker.cxx: qt_ros/qt_tutorials/qtalker/moc_talker.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_talker.cxx"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_talker.cxx"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx_parameters
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/flags.make
-qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtalker.dir/main.cpp.o -c /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp
+qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtalker.dir/main.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtalker.dir/main.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp > CMakeFiles/qtalker.dir/main.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp > CMakeFiles/qtalker.dir/main.cpp.i
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtalker.dir/main.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp -o CMakeFiles/qtalker.dir/main.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/main.cpp -o CMakeFiles/qtalker.dir/main.cpp.s
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o.requires:
 
@@ -87,17 +87,17 @@ qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o.provides.build: qt
 
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/flags.make
-qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o: /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtalker.dir/talker.cpp.o -c /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp
+qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtalker.dir/talker.cpp.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtalker.dir/talker.cpp.i"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp > CMakeFiles/qtalker.dir/talker.cpp.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp > CMakeFiles/qtalker.dir/talker.cpp.i
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtalker.dir/talker.cpp.s"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp -o CMakeFiles/qtalker.dir/talker.cpp.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker/talker.cpp -o CMakeFiles/qtalker.dir/talker.cpp.s
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o.requires:
 
@@ -112,16 +112,16 @@ qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o.provides.build: 
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/flags.make
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o: qt_ros/qt_tutorials/qtalker/moc_talker.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtalker.dir/moc_talker.cxx.o -c /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtalker.dir/moc_talker.cxx.o -c /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtalker.dir/moc_talker.cxx.i"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx > CMakeFiles/qtalker.dir/moc_talker.cxx.i
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx > CMakeFiles/qtalker.dir/moc_talker.cxx.i
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtalker.dir/moc_talker.cxx.s"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx -o CMakeFiles/qtalker.dir/moc_talker.cxx.s
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/moc_talker.cxx -o CMakeFiles/qtalker.dir/moc_talker.cxx.s
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o.requires:
 
@@ -143,38 +143,38 @@ qtalker_OBJECTS = \
 # External object files for target qtalker
 qtalker_EXTERNAL_OBJECTS =
 
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/build.make
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /home/mark/Project/TestingROS_Gui/devel/lib/libqtutorials.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libroscpp.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librosconsole.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librostime.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mark/Project/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker"
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtalker.dir/link.txt --verbose=$(VERBOSE)
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/main.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/talker.cpp.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/moc_talker.cxx.o
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/build.make
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/libqtutorials.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libroscpp.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librosconsole.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/librostime.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker: qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker"
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtalker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/build: /home/mark/Project/TestingROS_Gui/devel/lib/qt_tutorials/qtalker
+qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/build: /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/devel/lib/qt_tutorials/qtalker
 
 .PHONY : qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/build
 
@@ -185,10 +185,10 @@ qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/requires: qt_ros/qt_tutorials
 .PHONY : qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/requires
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/clean:
-	cd /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && $(CMAKE_COMMAND) -P CMakeFiles/qtalker.dir/cmake_clean.cmake
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker && $(CMAKE_COMMAND) -P CMakeFiles/qtalker.dir/cmake_clean.cmake
 .PHONY : qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/clean
 
 qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/depend: qt_ros/qt_tutorials/qtalker/moc_talker.cxx
-	cd /home/mark/Project/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Project/TestingROS_Gui/src /home/mark/Project/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker /home/mark/Project/TestingROS_Gui/build /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker /home/mark/Project/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/src/qt_ros/qt_tutorials/qtalker /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker /home/mark/Github/ROS-Gui-Chatter/TestingROS_Gui/build/qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qt_ros/qt_tutorials/qtalker/CMakeFiles/qtalker.dir/depend
 

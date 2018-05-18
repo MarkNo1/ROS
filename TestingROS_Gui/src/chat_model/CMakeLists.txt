@@ -4,6 +4,7 @@ project(chat_model)
 ## Compile as C++11, supported in ROS Kinetic and newer
 set(CMAKE_CXX_COMPILER "clang++-5.0")
 set(CMAKE_C_COMPILER "clang-5.0")
+set(CMAKE_CXX_STANDARD 11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -32,6 +33,6 @@ include_directories(
 
 ## Declare a C++ library
  add_library(${PROJECT_NAME}
-         src/Display.cpp
-         src/Keyboard.cpp
+         src/PublishNodeHandler.cpp
+         src/SubscriberNodeHandler.cpp
  )
