@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mark/Github/ROS/ComputationGraph/messages_pkg/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: demo_source_pkg
+Description: Description of demo_source_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

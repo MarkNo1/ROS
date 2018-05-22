@@ -1,0 +1,8 @@
+prefix=/home/mark/Github/ROS/ComputationGraph/messages_pkg/cmake-build-debug/devel
+
+Name: messages_pkg
+Description: Description of messages_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mark/Github/ROS/ComputationGraph/messages_pkg/cmake-build-debug/devel/lib 
+Requires: 
