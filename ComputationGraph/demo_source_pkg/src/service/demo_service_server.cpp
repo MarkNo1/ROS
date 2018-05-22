@@ -15,7 +15,7 @@ bool demo_service_callback(messages_pkg::demo_srv::Request  &req,
 {
 
   std::stringstream ss;
-  ss << "Received  Here";
+  ss << "I'm the SERVER";
   res.out = ss.str();
 
   ROS_INFO("From Client  [%s], Server says [%s]",req.in.c_str(),res.out.c_str());

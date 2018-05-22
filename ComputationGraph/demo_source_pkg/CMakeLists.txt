@@ -3,12 +3,14 @@ project(demo_source_pkg)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
  add_compile_options(-std=c++11)
+set(CMAKE_CXX_COMPILER "clang++-5.0")
+set(CMAKE_C_COMPILER "clang-5.0")
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp messages_pkg
+  roscpp messages_pkg actionlib
 )
 
 ## System dependencies are found with CMake's conventions
@@ -66,10 +68,11 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
-# )
+ generate_messages(
+         DEPENDENCIES
+         actionlib
+         messages_pkg  # Or other packages containing msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -101,8 +104,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES demo_source_pkg
+  INCLUDE_DIRS include
+  LIBRARIES demo_source_pkg
   CATKIN_DEPENDS roscpp messages_pkg
 #  DEPENDS system_lib
 )
@@ -114,15 +117,16 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
+        include
+        ${catkin_INCLUDE_DIRS}
+        ${Boost_INCLUDE_DIRS}
 )
 
+
 ## Declare a C++ library
-# add_library(${PROJECT_NAME}
-#         src/topic/demo_topic_publisher.cpp
-#         src/topic/demo_topic_subscriber.cpp
-# )
+add_library(${PROJECT_NAME}
+        src/actions/ActionServer.cpp
+        )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -132,14 +136,40 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
- add_executable(demo_topic_publisher src/topic/demo_topic_publisher.cpp)
- add_executable(demo_topic_subscriber src/topic/demo_topic_subscriber.cpp)
+add_executable(demo_topic_publisher src/topic/demo_topic_publisher.cpp)
+add_executable(demo_topic_subscriber src/topic/demo_topic_subscriber.cpp)
+
+add_executable(demo_service_client src/service/demo_service_client.cpp)
+add_executable(demo_service_server src/service/demo_service_server.cpp)
+
+add_executable(demo_action_server src/actions/demo_action_server.cpp)
+add_executable(demo_action_client src/actions/demo_action_client.cpp)
+
+
 
 add_dependencies(demo_topic_publisher ${PROJECT_NAME})
 add_dependencies(demo_topic_subscriber ${PROJECT_NAME})
 
+add_dependencies(demo_service_client ${PROJECT_NAME})
+add_dependencies(demo_service_server ${PROJECT_NAME})
+
+add_dependencies(demo_action_server ${PROJECT_NAME})
+add_dependencies(demo_action_client ${PROJECT_NAME})
+
+
+
 target_link_libraries(demo_topic_publisher ${catkin_LIBRARIES})
 target_link_libraries(demo_topic_subscriber ${catkin_LIBRARIES})
+
+target_link_libraries(demo_service_client ${catkin_LIBRARIES})
+target_link_libraries(demo_service_server ${catkin_LIBRARIES})
+
+target_link_libraries(demo_action_client
+        ${PROJECT_NAME}
+        ${catkin_LIBRARIES})
+target_link_libraries(demo_action_server
+        ${PROJECT_NAME}
+        ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
